@@ -1,0 +1,91 @@
+* {margin: 0; padding: 0;}
+
+header, nav, main, section, aside, footer { display: block; }
+
+#wrapper {
+    width: 480px;
+    margin: 0px auto;
+}
+
+.clear { clear: both; }
+
+
+
+/*mobile*/
+@media screen and (max-width: 495px) {
+    body {
+        width: 480px;
+        height: 736px;
+        background-image: url("../images/Agam's garden/background.png");
+        background-repeat: no-repeat;
+    }
+    header {
+        width: 480px;
+        height: 100px;
+    }
+    main {
+        width: 480px;
+        height: 569px;
+    }
+    footer {
+        width: 480px;
+        height: 67px;
+        background-image: url("../images/Agam's garden/footerBackground.png");
+        background-repeat: no-repeat;
+    }
+    .logoMobile {
+        background-image: url("../images/Agam's garden/logo.png");
+        background-repeat: no-repeat;
+        width: 92px;
+        height: 61px;
+        display: block;
+        float: left;
+        position: relative;
+        top: 6px;
+        left: 194px;
+    }
+    .headerBar {
+        background-image: url("../images/Agam's garden/headerBar.png");
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 27px;
+        display: block;
+        position: relative;
+        top: 73px;
+    }
+    .hamburger {
+        background-image: url("../images/Agam's garden/headerHamburger.png");
+        background-repeat: no-repeat;
+        width: 34px;
+        height: 24px;
+        display: block;
+        position: relative;
+        left: 8px;
+    }
+    .options {
+        background-image: url("../images/Agam's garden/headerOptions.png");
+        background-repeat: no-repeat;
+        width: 38px;
+        height: 38px;
+        display: block;
+        position: relative;
+        float: right;
+        top: -31px;
+        left: 6px;
+    }
+    .listBackground {
+        background-image: url("../images/Agam's garden/listbackground.png");
+        background-repeat: no-repeat;
+        width: 389px;
+        height: 440px;
+        position: relative;
+        top: 85px;
+        left: 46px;
+    }
+
+}
+
+/*Tablet*/
+@media screen and (min-width: 496px) and (max-width: 768px) {
+
+}
