@@ -96,6 +96,9 @@ header, nav, main, section, aside, footer { display: block; }
         top: 670px;
         left: 206px;
     }
+    .myGardensButton-Selected {
+        background-image: url("../images/General icons/myGardensButton-Selected.png")!important;
+    }
     .searchButton {
         background-image: url("../images/General icons/searchButton.png");
         background-repeat: no-repeat;
@@ -104,6 +107,9 @@ header, nav, main, section, aside, footer { display: block; }
         position: absolute;
         top: 679px;
         left: 383px;
+    }
+    .searchButton-Selected {
+        background-image: url("../images/General icons/searchButton-Selected.png")!important;
     }
     .leftArrow {
         background-image: url("../images/General icons/LeftArrow-Gardens.png");
@@ -170,6 +176,234 @@ header, nav, main, section, aside, footer { display: block; }
         width: 480px;
         height: 334px;
         position: absolute;
+    }
+    .backArrow {
+        background-image: url("../images/General icons/backArrow.png");
+        background-repeat: no-repeat;
+        width: 73px;
+        height: 48px;
+        position: absolute;
+        top: 13px;
+        left: -6px;
+    }
+    .plantsCoverText {
+        font-weight: normal;
+        font-size: 26px;
+        font-family: David;
+        color: white;
+        position: absolute;
+        top: 271px;
+        left: 18px;
+    }
+    .addToGardenButton {
+        background-image: url("../images/Flowers page/addFlowerButton.png");
+        background-repeat: no-repeat;
+        width: 221px;
+        height: 40px;
+        position: absolute;
+        top: 313px;
+        left: 130px;
+        border: none;
+        background-color: transparent;
+    }
+    .separationLine {
+        background-image: url("../images/Flowers page/separationLine.png");
+        background-repeat: no-repeat;
+        width: 1px;
+        height: 87px;
+        position: absolute;
+        top: 396px;
+        left: 241px;
+    }
+    .plantsCoverText {
+        font-weight: normal;
+        font-size: 26px;
+        font-family: David;
+        position: absolute;
+        top: 271px;
+        left: 18px;
+    }
+    .plantsMainTextHeadline {
+        font-weight: normal;
+        font-size: 18px;
+        font-family: David;
+        color: #629c44;
+        position: absolute;
+    }
+    .plantsMainTextInfo {
+        font-weight: normal;
+        font-size: 24px;
+        font-family: David;
+        color: #4d4c4c;
+        position: absolute;
+    }
+    .plantsMainTextFamily {
+        top: 396px;
+        left: 100px;
+    }
+    .plantsMainTextDuration {
+        top: 396px;
+        left: 329px;
+    }
+    .plantsMainTextFamilyInfo {
+        top: 428px;
+        left: 78px;
+    }
+    .plantsMainTextDurationInfo {
+        top: 428px;
+        left: 315px;
+    }
+    .infoBoxesForPlant {
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 240px;
+        height: 110px;
+    }
+    .waterInfo {
+        background-image: url("../images/Flowers page/waterInfo.png");
+        top: 516px;
+        left: 1px;
+    }
+    .plantingInfo {
+        background-image: url("../images/Flowers page/plantingInfo.png");
+        top: 626px;
+        left: 1px;
+    }
+    .spaceInfo {
+        background-image: url("../images/Flowers page/spaceInfo.png");
+        top: 516px;
+        left: 240px;
+    }
+    .exposureInfo {
+        background-image: url("../images/Flowers page/exposureInfo.png");
+        top: 626px;
+        left: 240px;
+    }
+    .infoBoxText {
+        font-weight: normal;
+        font-family: Arial;
+        position: absolute;
+    }
+    .waterInfoHeadline {
+        font-size: 18px;
+        color: #008db1;
+        top: 529px;
+        left: 95px;
+    }
+    .waterInfoContents {
+        font-size: 14px;
+        color: #008db1;
+        top: 597px;
+        left: 106px;
+    }
+    .plantingInfoHeadline {
+        font-size: 18px;
+        color: #ffb92e;
+        top: 639px;
+        left: 85px;
+    }
+    .plantingInfoContents {
+        font-size: 14px;
+        color: #ffb92e;
+        top: 711px;
+        left: 76px;
+    }
+    .spaceInfoHeadline {
+        font-size: 18px;
+        color: #bed49f;
+        top: 529px;
+        left: 334px;
+    }
+    .spaceInfoContents {
+        font-size: 14px;
+        color: #bed49f;
+        top: 596px;
+        left: 340px;
+    }
+    .exposureInfoHeadline {
+        font-size: 18px;
+        color: #79478f;
+        top: 639px;
+        left: 319px;
+    }
+    .exposureInfoContents {
+        font-size: 14px;
+        color: #79478f;
+        top: 711px;
+        left: 323px;
+    }
+    body#searchByName{
+        width: 480px;
+        height: 736px;
+        background-image: url("../images/General icons/background.png");
+        background-repeat: no-repeat;
+    }
+    body#searchByName header {
+        width: 480px;
+        height: 73px;
+        float: left;
+    }
+    body#searchByName main {
+        width: 456px;
+        height: 596px;
+        float: left;
+    }
+    body#searchByName aside {
+        width: 24px;
+        height: 596px;
+        float: left;
+    }
+    body#searchByName footer {
+        width: 480px;
+        height: 67px;
+        background-image: url("../images/General icons/footerBackground.png");
+        background-repeat: no-repeat;
+        float: left;
+    }
+    .headerSearchText {
+        font-weight: bold;
+        font-size: 24px;
+        font-family: Arial;
+        color: #f7f6f6;
+        position: absolute;
+        top: 19px;
+        left: 202px;
+    }
+    .sideLetters {
+        background-image: url("../images/General icons/sideLetters.png");
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 473px;
+        position: absolute;
+        top: 179px;
+        left: 457px;
+    }
+    .searchInput {
+        width: 347px;
+        height: 25px;
+        position: absolute;
+        top: 103px;
+        left: 67px;
+    }
+    body#searchByCategory{
+        width: 480px;
+        height: 736px;
+        background-image: url("../images/General icons/background.png");
+        background-repeat: no-repeat;
+    }
+    body#searchByCategory header {
+        width: 480px;
+        height: 73px;
+    }
+    body#searchByCategory main {
+        width: 480px;
+        height: 596px;
+    }
+    body#searchByCategory footer {
+        width: 480px;
+        height: 67px;
+        background-image: url("../images/General icons/footerBackground.png");
+        background-repeat: no-repeat;
     }
 }
 
