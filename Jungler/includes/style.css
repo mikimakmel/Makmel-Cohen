@@ -13,76 +13,164 @@ header, nav, main, section, aside, footer { display: block; }
 
 /*mobile*/
 @media screen and (max-width: 495px) {
-    body {
+    body#AgamsGarden{
         width: 480px;
         height: 736px;
-        background-image: url("../images/Agam's garden/background.png");
+        background-image: url("../images/General icons/background.png");
         background-repeat: no-repeat;
     }
-    header {
+    body#AgamsGarden header {
         width: 480px;
         height: 100px;
     }
-    main {
+    body#AgamsGarden main {
         width: 480px;
         height: 569px;
     }
-    footer {
+    body#AgamsGarden footer {
         width: 480px;
         height: 67px;
-        background-image: url("../images/Agam's garden/footerBackground.png");
+        background-image: url("../images/General icons/footerBackground.png");
         background-repeat: no-repeat;
     }
+
     .logoMobile {
-        background-image: url("../images/Agam's garden/logo.png");
+        background-image: url("../images/General icons/logo.png");
         background-repeat: no-repeat;
         width: 92px;
         height: 61px;
-        display: block;
-        float: left;
-        position: relative;
+        position: absolute;
         top: 6px;
         left: 194px;
     }
     .headerBar {
-        background-image: url("../images/Agam's garden/headerBar.png");
+        background-image: url("../images/General icons/headerBar.png");
         background-repeat: no-repeat;
         width: 480px;
         height: 27px;
-        display: block;
-        position: relative;
+        position: absolute;
         top: 73px;
     }
     .hamburger {
-        background-image: url("../images/Agam's garden/headerHamburger.png");
+        background-image: url("../images/General icons/headerHamburger.png");
         background-repeat: no-repeat;
         width: 34px;
         height: 24px;
-        display: block;
-        position: relative;
-        left: 8px;
+        position: absolute;
+        left: 12px;
+        top: 24px;
     }
     .options {
-        background-image: url("../images/Agam's garden/headerOptions.png");
+        background-image: url("../images/General icons/headerOptions.png");
         background-repeat: no-repeat;
         width: 38px;
         height: 38px;
-        display: block;
-        position: relative;
-        float: right;
-        top: -31px;
-        left: 6px;
+        position: absolute;
+        top: 18px;
+        left: 445px;
     }
     .listBackground {
-        background-image: url("../images/Agam's garden/listbackground.png");
+        background-image: url("../images/General icons/listbackground.png");
         background-repeat: no-repeat;
         width: 389px;
         height: 440px;
-        position: relative;
-        top: 85px;
+        position: absolute;
+        top: 185px;
         left: 46px;
     }
-
+    .recommendedButton {
+        background-image: url("../images/General icons/recommendedButton.png");
+        background-repeat: no-repeat;
+        width: 87px;
+        height: 55px;
+        position: absolute;
+        top: 677px;
+        left: 32px;
+    }
+    .myGardensButton {
+        background-image: url("../images/General icons/myGardensButton.png");
+        background-repeat: no-repeat;
+        width: 67px;
+        height: 62px;
+        position: absolute;
+        top: 670px;
+        left: 206px;
+    }
+    .searchButton {
+        background-image: url("../images/General icons/searchButton.png");
+        background-repeat: no-repeat;
+        width: 43px;
+        height: 50px;
+        position: absolute;
+        top: 679px;
+        left: 383px;
+    }
+    .leftArrow {
+        background-image: url("../images/General icons/LeftArrow-Gardens.png");
+        background-repeat: no-repeat;
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        top: 129px;
+        left: 39px;
+    }
+    .rightArrow {
+        background-image: url("../images/General icons/RightArrow-Gardens.png");
+        background-repeat: no-repeat;
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        top: 129px;
+        left: 414px;
+    }
+    .myGardenList {
+        background-image: url("../images/General icons/listIcon.png");
+        background-repeat: no-repeat;
+        width: 42px;
+        height: 26px;
+        position: absolute;
+        top: 197px;
+        left: 116px;
+    }
+    .myGardenNotifications {
+        background-image: url("../images/General icons/listNotifications.png");
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 29px;
+        position: absolute;
+        top: 195px;
+        left: 343px;
+    }
+    .flowerAddedBunner {
+        background-image: url("../images/General icons/flowerAddedBunner.png");
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 100px;
+        position: absolute;
+    }
+    body#Hibiscus{
+        width: 480px;
+        height: 736px;
+    }
+    body#Hibiscus header {
+        width: 480px;
+        height: 334px;
+    }
+    body#Hibiscus main {
+        width: 480px;
+        height: 182px;
+    }
+    body#Hibiscus footer {
+        width: 480px;
+        height: 220px;
+    }
+    .flowerCoverPic {
+        background-image: url("../images/Flowers page/Hibiscus.png");
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 334px;
+        position: absolute;
+    }
 }
 
 /*Tablet*/
