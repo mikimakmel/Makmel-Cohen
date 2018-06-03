@@ -778,7 +778,7 @@ input:focus {
     .flowerAddedBunner {
         background-image: url("../images/Tablet/General icons/flowerAddedBunner.png");
         background-repeat: no-repeat;
-        width: 480px;
+        width: 768px;
         height: 100px;
         position: absolute;
     }
@@ -1078,7 +1078,7 @@ input:focus {
         top: 0px;
     }
     body#searchByCategory main {
-        width: 744px;
+        width: 768px;
         height: 596px;
         position: absolute;
         left: 0px;
@@ -1104,79 +1104,84 @@ input:focus {
         top: 78px;
         left: 319px;
     }
-    /*.filterButton {*/
-        /*background-image: url("../images/Search page/filterIcon.png");*/
-        /*background-repeat: no-repeat;*/
-        /*width: 31px;*/
-        /*height: 31px;*/
-        /*position: absolute;*/
-        /*top: 154px;*/
-        /*left: 32px;*/
-        /*border: none;*/
-        /*background-color: transparent;*/
-    /*}*/
-    /*.infoButton {*/
-        /*background-image: url("../images/Search page/infoIcon.png");*/
-        /*background-repeat: no-repeat;*/
-        /*width: 24px;*/
-        /*height: 24px;*/
-        /*position: absolute;*/
-        /*top: 161px;*/
-        /*left: 426px;*/
-        /*border: none;*/
-        /*background-color: transparent;*/
-    /*}*/
-    /*.QRbutton {*/
-        /*background-image: url("../images/Search page/QRbutton.png");*/
-        /*background-repeat: no-repeat;*/
-        /*width: 219px;*/
-        /*height: 89px;*/
-        /*position: absolute;*/
-        /*top: 549px;*/
-        /*left: 131px;*/
-        /*border: none;*/
-        /*background-color: transparent;*/
-    /*}*/
-    /*.whiteRectangle {*/
-        /*background-image: url("../images/Search page/whiteRectangle.png");*/
-        /*background-repeat: no-repeat;*/
-        /*width: 480px;*/
-        /*height: 151px;*/
-        /*position: absolute;*/
-        /*top: 519px;*/
-        /*left: 0px;*/
-    /*}*/
-    /*.searchInput {*/
-        /*width: 347px;*/
-        /*height: 25px;*/
-        /*border: none;*/
-        /*border-bottom: solid 2px #44aa00;*/
-        /*font-size: 14px;*/
-        /*font-family: 'ABeeZee' !important;*/
-        /*color: #606060;*/
-        /*text-indent: 15px;*/
-    /*}*/
-    /*::placeholder {*/
-        /*color: #aaaaaa;*/
-    /*}*/
-    /*.searchIcon {*/
-        /*background-image: url("../images/Search page/searchIcon.png");*/
-        /*background-repeat: no-repeat;*/
-        /*width: 20px;*/
-        /*height: 20px;*/
-        /*position: absolute;*/
-        /*top: 103px;*/
-        /*left: 68px;*/
-    /*}*/
-    /*.deleteIcon {*/
-        /*background-image: url("../images/Search page/deleteIcon.png");*/
-        /*background-repeat: no-repeat;*/
-        /*width: 17px;*/
-        /*height: 12px;*/
-        /*position: absolute;*/
-        /*top: 109px;*/
-        /*left: 393px;*/
-        /*border: none;*/
-        /*background-color: transparent;*/
-    /*}*/
+    .filterButton {
+        background-image: url("../images/Search page/filterIcon.png");
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        top: 154px;
+        left: 32px;
+        border: none;
+        background-color: transparent;
+    }
+    .infoButton {
+        background-image: url("../images/Search page/infoIcon.png");
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 161px;
+        right: 30px;
+        border: none;
+        background-color: transparent;
+    }
+    .QRbutton {
+        background-image: url("../images/Search page/QRbutton.png");
+        background-repeat: no-repeat;
+        width: 219px;
+        height: 89px;
+        position: absolute;
+        top: 490px;
+        left: 274px;
+        border: none;
+        background-color: transparent;
+    }
+    .whiteRectangle {
+        background-image: url("../images/Search page/whiteRectangle.png");
+        background-repeat: no-repeat;
+        width: 768px;
+        height: 151px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+    body#loadingPage{
+        width: 768px;
+        height: 736px;
+        background-image: url("../images/Tablet/General icons/background.png");
+        background-repeat: no-repeat;
+    }
+    body#loadingPage header {
+        width: 768px;
+        height: 73px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    body#loadingPage main {
+        width: 768px;
+        height: 663px;
+        position: absolute;
+        left: 0px;
+        top: 73px;
+    }
+    .loadingFlowerGIF {
+        background-image: url("../images/Loading page/flowerGif2.gif");
+        background-repeat: no-repeat;
+        width: 281px;
+        height: 281px;
+        position: absolute;
+        top: 151px;
+        left: 242px;
+    }
+    .loadingDotsGIF {
+        background-image: url("../images/Loading page/loadingDots2.gif");
+        background-repeat: no-repeat;
+        width: 121px;
+        height: 68px;
+        position: absolute;
+        top: 549px;
+        left: 323px;
+    }
 }

@@ -14,9 +14,9 @@ var options = {
 };
 var userList = new List('users', options, values);
 
-userList.add({ image: '/images/FlowersPng/Petunia.png', name: 'Petunia', family: 'Petunia axillaris'});
-userList.add({ image: '/images/FlowersPng/American_Basswood.png', name: 'American Basswood', family: 'Tilia americana'});
-userList.add({ image: '/images/FlowersPng/Aibika.png', name: 'Aibika', family: 'Abelmoschus manihot'});
-userList.add({ image: '/images/FlowersPng/Hibiscus.png', name: 'Hibiscus', family: 'Hibiscus genevil'});
+userList.add({ image: 'images/FlowersPng/Petunia.png', name: 'Petunia', family: 'Petunia axillaris'});
+userList.add({ image: 'images/FlowersPng/American_Basswood.png', name: 'American Basswood', family: 'Tilia americana'});
+userList.add({ image: 'images/FlowersPng/Aibika.png', name: 'Aibika', family: 'Abelmoschus manihot'});
+userList.add({ image: 'images/FlowersPng/Hibiscus.png', name: 'Hibiscus', family: 'Hibiscus genevil'});
 
 var values = [];
