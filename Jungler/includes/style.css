@@ -1,5 +1,5 @@
 * {margin: 0; padding: 0;}
-@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+
 header, nav, main, section, aside, footer { display: block; }
 
 #wrapper {
@@ -153,6 +153,15 @@ header, nav, main, section, aside, footer { display: block; }
         height: 100px;
         position: absolute;
     }
+    .gardenNameText {
+        font-weight: normal;
+        font-size: 26px;
+        font-family: 'ABeeZee'!important;
+        color: #929292;
+        position: absolute;
+        top: 125px;
+        left: 144px;
+    }
     body#Hibiscus{
         width: 480px;
         height: 736px;
@@ -185,15 +194,6 @@ header, nav, main, section, aside, footer { display: block; }
         top: 13px;
         left: -6px;
     }
-    .plantsCoverText {
-        font-weight: normal;
-        font-size: 26px;
-        font-family: David;
-        color: white;
-        position: absolute;
-        top: 271px;
-        left: 18px;
-    }
     .addToGardenButton {
         background-image: url("../images/Flowers page/addFlowerButton.png");
         background-repeat: no-repeat;
@@ -217,7 +217,8 @@ header, nav, main, section, aside, footer { display: block; }
     .plantsCoverText {
         font-weight: normal;
         font-size: 26px;
-        font-family: David;
+        font-family: 'Abhaya Libre'!important;
+        color: white;
         position: absolute;
         top: 271px;
         left: 18px;
@@ -225,14 +226,14 @@ header, nav, main, section, aside, footer { display: block; }
     .plantsMainTextHeadline {
         font-weight: normal;
         font-size: 18px;
-        font-family: David;
+        font-family: 'Abhaya Libre'!important;
         color: #629c44;
         position: absolute;
     }
     .plantsMainTextInfo {
         font-weight: normal;
         font-size: 24px;
-        font-family: David;
+        font-family: 'Abhaya Libre'!important;
         color: #4d4c4c;
         position: absolute;
     }
@@ -280,7 +281,7 @@ header, nav, main, section, aside, footer { display: block; }
     }
     .infoBoxText {
         font-weight: normal;
-        font-family: Arial;
+        font-family: 'ABeeZee' !important;
         position: absolute;
     }
     .waterInfoHeadline {
@@ -362,7 +363,7 @@ header, nav, main, section, aside, footer { display: block; }
     .headerSearchText {
         font-weight: bold;
         font-size: 24px;
-        font-family: Arial;
+        font-family: 'ABeeZee' !important;
         color: #f7f6f6;
         position: absolute;
         top: 19px;
@@ -412,7 +413,7 @@ header, nav, main, section, aside, footer { display: block; }
         font-style: italic;
         border-bottom: solid 2px #606060;
         font-size: 26px;
-        font-family: 'ABeeZee';
+        font-family: 'ABeeZee' !important;
         color: #606060;
         position: absolute;
         top: 151px;
@@ -460,6 +461,39 @@ header, nav, main, section, aside, footer { display: block; }
         top: 519px;
         left: 0px;
     }
+    .searchInput {
+        width: 347px;
+        height: 25px;
+        border: none;
+        border-bottom: solid 2px #44aa00;
+        font-size: 14px;
+        font-family: 'ABeeZee' !important;
+        color: #606060;
+        text-indent: 15px;
+    }
+    ::placeholder {
+        color: #aaaaaa;
+    }
+    .searchIcon {
+        background-image: url("../images/Search page/searchIcon.png");
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 103px;
+        left: 68px;
+    }
+    .deleteIcon {
+        background-image: url("../images/Search page/deleteIcon.png");
+        background-repeat: no-repeat;
+        width: 17px;
+        height: 12px;
+        position: absolute;
+        top: 109px;
+        left: 393px;
+        border: none;
+        background-color: transparent;
+    }
     body#loadingPage{
         width: 480px;
         height: 736px;
@@ -495,8 +529,11 @@ header, nav, main, section, aside, footer { display: block; }
         left: 180px;
     }
 
+<<<<<<< HEAD
 
 /* flowerAdded.HTML */
+=======
+>>>>>>> c74984f9f58afbf691c4025243dfa4924bc9e414
 .list {
     margin-top: 50px;
     padding:21px 0 0;
@@ -614,5 +651,550 @@ input:focus {
 }
 /*Tablet*/
 @media screen and (min-width: 496px) and (max-width: 768px) {
-
+    body#AgamsGarden{
+        width: 768px;
+        height: 736px;
+        background-image: url("../images/Tablet/General icons/background.png");
+        background-repeat: no-repeat;
+    }
+    body#AgamsGarden header {
+        width: 768px;
+        height: 100px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    body#AgamsGarden main {
+        width: 768px;
+        height: 569px;
+        position: absolute;
+        left: 0px;
+        top: 100px;
+    }
+    body#AgamsGarden footer {
+        width: 768px;
+        height: 67px;
+        background-image: url("../images/Tablet/General icons/footerBackground.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0px;
+        top: 669px;
+    }
+    .logoMobile {
+        background-image: url("../images/General icons/logo.png");
+        background-repeat: no-repeat;
+        width: 92px;
+        height: 61px;
+        position: absolute;
+        top: 6px;
+        left: 337px;
+    }
+    .headerBar {
+        background-image: url("../images/Tablet/General icons/headerBar.png");
+        background-repeat: no-repeat;
+        width: 768px;
+        height: 27px;
+        position: absolute;
+        top: 73px;
+    }
+    .hamburger {
+        background-image: url("../images/General icons/headerHamburger.png");
+        background-repeat: no-repeat;
+        width: 34px;
+        height: 24px;
+        position: absolute;
+        left: 12px;
+        top: 24px;
+    }
+    .options {
+        background-image: url("../images/General icons/headerOptions.png");
+        background-repeat: no-repeat;
+        width: 38px;
+        height: 38px;
+        position: absolute;
+        top: 18px;
+        left: 718px;
+    }
+    .listBackground {
+        background-image: url("../images/Tablet/General icons/listbackground2.png");
+        background-repeat: no-repeat;
+        width: 489px;
+        height: 440px;
+        position: absolute;
+        top: 85px;
+        left: 139px;
+    }
+    .recommendedButton {
+        background-image: url("../images/General icons/recommendedButton.png");
+        background-repeat: no-repeat;
+        width: 87px;
+        height: 55px;
+        position: absolute;
+        top: 12px;
+        left: 75px;
+    }
+    .myGardensButton {
+        background-image: url("../images/General icons/myGardensButton.png");
+        background-repeat: no-repeat;
+        width: 67px;
+        height: 62px;
+        position: absolute;
+        top: 3px;
+        left: 349px;
+    }
+    .myGardensButton-Selected {
+        background-image: url("../images/General icons/myGardensButton-Selected.png")!important;
+    }
+    .searchButton {
+        background-image: url("../images/General icons/searchButton.png");
+        background-repeat: no-repeat;
+        width: 43px;
+        height: 50px;
+        position: absolute;
+        top: 10px;
+        left: 626px;
+    }
+    .searchButton-Selected {
+        background-image: url("../images/General icons/searchButton-Selected.png")!important;
+    }
+    .leftArrow {
+        background-image: url("../images/General icons/LeftArrow-Gardens.png");
+        background-repeat: no-repeat;
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        top: 29px;
+        left: 182px;
+    }
+    .rightArrow {
+        background-image: url("../images/General icons/RightArrow-Gardens.png");
+        background-repeat: no-repeat;
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        top: 29px;
+        left: 557px;
+    }
+    .myGardenList {
+        background-image: url("../images/General icons/listIcon.png");
+        background-repeat: no-repeat;
+        width: 42px;
+        height: 26px;
+        position: absolute;
+        top: 97px;
+        left: 234px;
+    }
+    .myGardenNotifications {
+        background-image: url("../images/General icons/listNotifications.png");
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 29px;
+        position: absolute;
+        top: 95px;
+        left: 511px;
+    }
+    .flowerAddedBunner {
+        background-image: url("../images/Tablet/General icons/flowerAddedBunner.png");
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 100px;
+        position: absolute;
+    }
+    .gardenNameText {
+        font-weight: normal;
+        font-size: 26px;
+        font-family: 'ABeeZee'!important;
+        color: #929292;
+        position: absolute;
+        top: 25px;
+        left: 287px;
+    }
+    body#Hibiscus{
+        width: 768px;
+        height: 736px;
+    }
+    body#Hibiscus header {
+        width: 768px;
+        height: 334px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    body#Hibiscus main {
+        width: 768px;
+        height: 182px;
+        position: absolute;
+        left: 0px;
+        top: 334px;
+    }
+    body#Hibiscus footer {
+        width: 768px;
+        height: 220px;
+        position: absolute;
+        left: 0px;
+        top: 516px;
+    }
+    .flowerCoverPic {
+        background-image: url("../images/Tablet/Flowers page/Hibiscus.png");
+        background-repeat: no-repeat;
+        width: 768px;
+        height: 334px;
+        position: absolute;
+    }
+    .backArrow {
+        background-image: url("../images/General icons/backArrow.png");
+        background-repeat: no-repeat;
+        width: 73px;
+        height: 48px;
+        position: absolute;
+        top: 13px;
+        left: -6px;
+    }
+    .addToGardenButton {
+        background-image: url("../images/Flowers page/addFlowerButton.png");
+        background-repeat: no-repeat;
+        width: 221px;
+        height: 40px;
+        position: absolute;
+        top: -19px;
+        left: 273px;
+        border: none;
+        background-color: transparent;
+    }
+    .separationLine {
+        background-image: url("../images/Flowers page/separationLine.png");
+        background-repeat: no-repeat;
+        width: 1px;
+        height: 87px;
+        position: absolute;
+        top: 58px;
+        left: 384px;
+    }
+    .plantsCoverText {
+        font-weight: normal;
+        font-size: 26px;
+        font-family: 'Abhaya Libre'!important;
+        color: white;
+        position: absolute;
+        top: 271px;
+        left: 18px;
+    }
+    .plantsMainTextHeadline {
+        font-weight: normal;
+        font-size: 18px;
+        font-family: 'Abhaya Libre'!important;
+        color: #629c44;
+        position: absolute;
+    }
+    .plantsMainTextInfo {
+        font-weight: normal;
+        font-size: 24px;
+        font-family: 'Abhaya Libre'!important;
+        color: #4d4c4c;
+        position: absolute;
+    }
+    .plantsMainTextFamily {
+        top: 66px;
+        left: 243px;
+    }
+    .plantsMainTextDuration {
+        top: 66px;
+        left: 472px;
+    }
+    .plantsMainTextFamilyInfo {
+        top: 100px;
+        left: 221px;
+    }
+    .plantsMainTextDurationInfo {
+        top: 100px;
+        left: 458px;
+    }
+    .infoBoxesForPlant {
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 384px;
+        height: 110px;
+    }
+    .waterInfo {
+        background-image: url("../images/Tablet/Flowers page/waterInfo.png");
+        top: 0px;
+        left: 1px;
+    }
+    .plantingInfo {
+        background-image: url("../images/Tablet/Flowers page/plantingInfo.png");
+        top: 110px;
+        left: 1px;
+    }
+    .spaceInfo {
+        background-image: url("../images/Tablet/Flowers page/spaceInfo.png");
+        top: 0px;
+        left: 384px;
+    }
+    .exposureInfo {
+        background-image: url("../images/Tablet/Flowers page/exposureInfo.png");
+        top: 110px;
+        left: 384px;
+    }
+    .infoBoxText {
+        font-weight: normal;
+        font-family: 'ABeeZee' !important;
+        position: absolute;
+    }
+    .waterInfoHeadline {
+        font-size: 18px;
+        color: #008db1;
+        margin-top: 17px;
+        left: 167px;
+    }
+    .waterInfoContents {
+        font-size: 14px;
+        color: #008db1;
+        margin-top: 84px;
+        left: 178px;
+    }
+    .plantingInfoHeadline {
+        font-size: 18px;
+        color: #ffb92e;
+        margin-top: 126px;
+        left: 160px;
+    }
+    .plantingInfoContents {
+        font-size: 14px;
+        color: #ffb92e;
+        margin-top: 198px;
+        left: 152px;
+    }
+    .spaceInfoHeadline {
+        font-size: 18px;
+        color: #bed49f;
+        margin-top: 17px;
+        left: 549px;
+    }
+    .spaceInfoContents {
+        font-size: 14px;
+        color: #bed49f;
+        margin-top: 84px;
+        left: 555px;
+    }
+    .exposureInfoHeadline {
+        font-size: 18px;
+        color: #79478f;
+        margin-top: 126px;
+        left: 540px;
+    }
+    .exposureInfoContents {
+        font-size: 14px;
+        color: #79478f;
+        margin-top: 198px;
+        left: 540px;
+    }
+    body#searchByName{
+        width: 768px;
+        height: 736px;
+        background-image: url("../images/Tablet/General icons/background.png");
+        background-repeat: no-repeat;
+    }
+    body#searchByName header {
+        width: 768px;
+        height: 73px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    body#searchByName main {
+        width: 744px;
+        height: 596px;
+        position: absolute;
+        left: 0px;
+        top: 73px;
+    }
+    body#searchByName aside {
+        width: 24px;
+        height: 596px;
+        position: absolute;
+        left: 744px;
+        top: 73px;
+    }
+    body#searchByName footer {
+        width: 768px;
+        height: 67px;
+        background-image: url("../images/Tablet/General icons/footerBackground.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0px;
+        top: 669px;
+    }
+    .headerSearchText {
+        font-weight: bold;
+        font-size: 24px;
+        font-family: 'ABeeZee' !important;
+        color: #f7f6f6;
+        position: absolute;
+        top: 19px;
+        left: 345px;
+    }
+    .sideLetters {
+        background-image: url("../images/General icons/sideLetters.png");
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 473px;
+        position: absolute;
+        top: 108px;
+        left: 0px;
+    }
+    .searchInput {
+        width: 347px;
+        height: 25px;
+        position: absolute;
+        top: 30px;
+        left: 210px;
+    }
+    .searchInput {
+        width: 347px;
+        height: 25px;
+        border: none;
+        border-bottom: solid 2px #44aa00;
+        font-size: 14px;
+        font-family: 'ABeeZee' !important;
+        color: #606060;
+        text-indent: 15px;
+    }
+    ::placeholder {
+        color: #aaaaaa;
+    }
+    .searchIcon {
+        background-image: url("../images/Search page/searchIcon.png");
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 30px;
+        left: 211px;
+    }
+    .deleteIcon {
+        background-image: url("../images/Search page/deleteIcon.png");
+        background-repeat: no-repeat;
+        width: 17px;
+        height: 12px;
+        position: absolute;
+        top: 36px;
+        left: 536px;
+        border: none;
+        background-color: transparent;
+    }
+    body#searchByCategory{
+        width: 768px;
+        height: 736px;
+        background-image: url("../images/Tablet/General icons/background.png");
+        background-repeat: no-repeat;
+    }
+    body#searchByCategory header {
+        width: 768px;
+        height: 73px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    body#searchByCategory main {
+        width: 744px;
+        height: 596px;
+        position: absolute;
+        left: 0px;
+        top: 73px;
+    }
+    body#searchByCategory footer {
+        width: 768px;
+        height: 67px;
+        background-image: url("../images/Tablet/General icons/footerBackground.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0px;
+        top: 669px;
+    }
+    .categoriesSearchText {
+        font-weight: bold;
+        font-style: italic;
+        border-bottom: solid 2px #606060;
+        font-size: 26px;
+        font-family: 'ABeeZee' !important;
+        color: #606060;
+        position: absolute;
+        top: 78px;
+        left: 319px;
+    }
+    /*.filterButton {*/
+        /*background-image: url("../images/Search page/filterIcon.png");*/
+        /*background-repeat: no-repeat;*/
+        /*width: 31px;*/
+        /*height: 31px;*/
+        /*position: absolute;*/
+        /*top: 154px;*/
+        /*left: 32px;*/
+        /*border: none;*/
+        /*background-color: transparent;*/
+    /*}*/
+    /*.infoButton {*/
+        /*background-image: url("../images/Search page/infoIcon.png");*/
+        /*background-repeat: no-repeat;*/
+        /*width: 24px;*/
+        /*height: 24px;*/
+        /*position: absolute;*/
+        /*top: 161px;*/
+        /*left: 426px;*/
+        /*border: none;*/
+        /*background-color: transparent;*/
+    /*}*/
+    /*.QRbutton {*/
+        /*background-image: url("../images/Search page/QRbutton.png");*/
+        /*background-repeat: no-repeat;*/
+        /*width: 219px;*/
+        /*height: 89px;*/
+        /*position: absolute;*/
+        /*top: 549px;*/
+        /*left: 131px;*/
+        /*border: none;*/
+        /*background-color: transparent;*/
+    /*}*/
+    /*.whiteRectangle {*/
+        /*background-image: url("../images/Search page/whiteRectangle.png");*/
+        /*background-repeat: no-repeat;*/
+        /*width: 480px;*/
+        /*height: 151px;*/
+        /*position: absolute;*/
+        /*top: 519px;*/
+        /*left: 0px;*/
+    /*}*/
+    /*.searchInput {*/
+        /*width: 347px;*/
+        /*height: 25px;*/
+        /*border: none;*/
+        /*border-bottom: solid 2px #44aa00;*/
+        /*font-size: 14px;*/
+        /*font-family: 'ABeeZee' !important;*/
+        /*color: #606060;*/
+        /*text-indent: 15px;*/
+    /*}*/
+    /*::placeholder {*/
+        /*color: #aaaaaa;*/
+    /*}*/
+    /*.searchIcon {*/
+        /*background-image: url("../images/Search page/searchIcon.png");*/
+        /*background-repeat: no-repeat;*/
+        /*width: 20px;*/
+        /*height: 20px;*/
+        /*position: absolute;*/
+        /*top: 103px;*/
+        /*left: 68px;*/
+    /*}*/
+    /*.deleteIcon {*/
+        /*background-image: url("../images/Search page/deleteIcon.png");*/
+        /*background-repeat: no-repeat;*/
+        /*width: 17px;*/
+        /*height: 12px;*/
+        /*position: absolute;*/
+        /*top: 109px;*/
+        /*left: 393px;*/
+        /*border: none;*/
+        /*background-color: transparent;*/
+    /*}*/
 }
