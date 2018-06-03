@@ -10,7 +10,6 @@ header, nav, main, section, aside, footer { display: block; }
 .clear { clear: both; }
 
 
-
 /*mobile*/
 @media screen and (max-width: 495px) {
     body#AgamsGarden{
@@ -394,16 +393,113 @@ header, nav, main, section, aside, footer { display: block; }
     body#searchByCategory header {
         width: 480px;
         height: 73px;
+        float: left;
     }
     body#searchByCategory main {
         width: 480px;
         height: 596px;
+        float: left;
     }
     body#searchByCategory footer {
         width: 480px;
         height: 67px;
         background-image: url("../images/General icons/footerBackground.png");
         background-repeat: no-repeat;
+        float: left;
+    }
+    .categoriesSearchText {
+        font-weight: bold;
+        font-style: italic;
+        border-bottom: solid 2px #606060;
+        font-size: 26px;
+        font-family: 'ABeeZee';
+        color: #606060;
+        position: absolute;
+        top: 151px;
+        left: 176px;
+    }
+    .filterButton {
+        background-image: url("../images/Search page/filterIcon.png");
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        top: 154px;
+        left: 32px;
+        border: none;
+        background-color: transparent;
+    }
+    .infoButton {
+        background-image: url("../images/Search page/infoIcon.png");
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 161px;
+        left: 426px;
+        border: none;
+        background-color: transparent;
+    }
+    .QRbutton {
+        background-image: url("../images/Search page/QRbutton.png");
+        background-repeat: no-repeat;
+        width: 219px;
+        height: 89px;
+        position: absolute;
+        top: 549px;
+        left: 131px;
+        border: none;
+        background-color: transparent;
+    }
+    .whiteRectangle {
+        background-image: url("../images/Search page/whiteRectangle.png");
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 151px;
+        position: absolute;
+        top: 519px;
+        left: 0px;
+    }
+    body#loadingPage{
+        width: 480px;
+        height: 736px;
+        background-image: url("../images/General icons/background.png");
+        background-repeat: no-repeat;
+    }
+    body#loadingPage header {
+        width: 480px;
+        height: 73px;
+        float: left;
+    }
+    body#loadingPage main {
+        width: 480px;
+        height: 596px;
+        float: left;
+    }
+    body#loadingPage footer {
+        width: 480px;
+        height: 67px;
+        background-image: url("../images/General icons/footerBackground.png");
+        background-repeat: no-repeat;
+        float: left;
+    }
+    .loadingFlowerGIF {
+        background-image: url("../images/Loading page/flower_gif.gif");
+        background-repeat: no-repeat;
+        width: 281px;
+        height: 281px;
+        position: absolute;
+        top: 224px;
+        left: 99px;
+    }
+    .loadingDotsGIF {
+        background-image: url("../images/Loading page/loadingDots.gif");
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 151px;
+        position: absolute;
+        top: 519px;
+        left: 0px;
     }
 }
 
