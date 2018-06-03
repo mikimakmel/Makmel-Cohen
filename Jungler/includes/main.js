@@ -1,36 +1,22 @@
-// var options = {
-//     valueNames: [
-//       'name',
-//       'family',
-//       { data: ['id'] },
-//       { attr: 'src', name: 'image' },
-//       { attr: 'href', name: 'link' },
-//     ]
-//   };
-//   var userList = new List('users', options);
-//   userList.add({ image: '/images/flower.png', name: 'Petunia', family: 'Petunia axillaris', id: 1});
-
 var options = {
-    valueNames: ['name', 'family'],
-    item: '<li><img class="image" src="/images/flower.png"><h3 class="name"></h3><p class="family"></p></li>'
-  };
-  
-  var values = [{
-      name: 'Jonny Strömberg',
-      family: 1986
-    },
-    {
-      name: 'Jonas Arnklint',
-      family: 1985
-    },
-    {
-      name: 'Martina Elm',
-      family: 1986
-  }];
-  
-  var userList = new List('users', options, values);
-  
-  userList.add({
-    name: "Gustaf Lindqvist",
-    family: 1983
-  });
+  valueNames: ['name','family', { attr: 'src', name: 'image' }],
+  item: '<li>' +
+        '<img class="image" src="">' +
+        '<span class="name listFont"></span>' +        
+        '<img class="notificationImg notificationImgRight" src="images/Agams garden/trim.png">' +
+        '<img class="notificationImg" src="images/Agams garden/water.png">' +
+        '<div class="clearer"></div>' +
+        '<span class="family"></span>' +
+        '<img class="notificationImg notificationImgRight" src="images/Agams garden/harvest.png">' +
+        '<img class="notificationImg" src="images/Agams garden/fertilize.png">' +
+        '<img src="images/General icons/horizontalLine.png">' +
+        '</li>'
+};
+var userList = new List('users', options, values);
+
+userList.add({ image: '/images/FlowersPng/Petunia.png', name: 'Petunia', family: 'Petunia axillaris'});
+userList.add({ image: '/images/FlowersPng/American_Basswood.png', name: 'American Basswood', family: 'Tilia americana'});
+userList.add({ image: '/images/FlowersPng/Aibika.png', name: 'Aibika', family: 'Abelmoschus manihot'});
+userList.add({ image: '/images/FlowersPng/Hibiscus.png', name: 'Hibiscus', family: 'Hibiscus genevil'});
+
+var values = [];

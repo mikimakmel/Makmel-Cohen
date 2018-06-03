@@ -8,7 +8,7 @@ header, nav, main, section, aside, footer { display: block; }
 }
 
 .clear { clear: both; }
-
+.clearer { clear: none; }
 
 /*mobile*/
 @media screen and (max-width: 495px) {
@@ -498,37 +498,45 @@ header, nav, main, section, aside, footer { display: block; }
 
 /* Lev Added */
 .list {
-    margin-top: 49px;
+    margin-top: 50px;
     padding:21px 0 0;
 }
 .list > li {
     display:block;
-    padding:10px;
+    padding-left: 35px;
+    padding-bottom: 16px;
 }
-/* .avatar {
-  max-width: 150px;
-} */
-img {
-    max-width: 55px;
-    max-height: 55px;
-    margin: 0 16px 35px;
+.image {
+    width: 55px;
+    height: 55px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     float: left;
 }
-h3 {
+.notificationImg {
+    width: 22px;
+    height: 22px;
+    float: right;
+    margin: 1px;
+}
+.notificationImgRight {
+    margin-right: 24px;
+}
+.listFont {
     font-size: 14px;
     margin:0 0 0.3rem;
     color: #444444;
-    font-family: 'ABeeZee', sans-serif !important;
-
+    padding-top: 10px;
+    font-family: 'ABeeZee' !important;
 }
-p {
-    margin:0;
+.family {
     font-size: 10px;
     color: #929292;
-    font-family: 'ABeeZee', sans-serif !important;
-
+    font-family: 'ABeeZee' !important;
+    float: left;
 }
-
 input {
     border:solid 1px #ccc;
     border-radius: 5px;
