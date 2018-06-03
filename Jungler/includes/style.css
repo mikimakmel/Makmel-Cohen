@@ -494,9 +494,9 @@ header, nav, main, section, aside, footer { display: block; }
         top: 622px;
         left: 180px;
     }
-}
 
-/* Lev Added */
+
+/* flowerAdded.HTML */
 .list {
     margin-top: 50px;
     padding:21px 0 0;
@@ -598,6 +598,20 @@ input:focus {
     right:-5px;
 }
 
+/* searchByCategory.HTML */
+
+ #photosBootstrap {
+    /* position: absolute; */
+    top: 208px;
+    /* left: 80px; */
+  }
+  
+  /* .col img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }  */
+
+}
 /*Tablet*/
 @media screen and (min-width: 496px) and (max-width: 768px) {
 
