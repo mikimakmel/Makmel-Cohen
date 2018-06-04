@@ -490,7 +490,7 @@ header, nav, main, section, aside, footer { display: block; }
         top: 103px;
         left: 68px;
     }
-    .deleteIcon {
+    #deleteIcon {
         background-image: url("../images/Search page/deleteIcon.png");
         background-repeat: no-repeat;
         width: 17px;

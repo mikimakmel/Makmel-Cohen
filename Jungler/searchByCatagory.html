@@ -22,43 +22,54 @@
 
             <input type="text" id="myInput" class="searchInput" placeholder="By plant's name">
             <div class="searchIcon"></div>
-            <button onclick="document.getElementById('myInput').value = ''" class="deleteIcon"></button>
-            <h2 class="categoriesSearchText">Categories</h2>
-            <button class="filterButton"></button>
-            <button class="infoButton"></button>
+            <button onclick="document.getElementById('myInput').value = ''" id="deleteIcon"></button>
+            <!-- <article id="byCategory">
+                <h2 class="categoriesSearchText">Categories</h2>
+                <button class="filterButton"></button>
+                <button class="infoButton"></button>
 
-            <section id="photosBootstrap">
-                <div class="row justify-content-center ">
-                    <div class="col-4">
-                        <img src="/images/Search page/herbs.png">
+                <section id="photosBootstrap">
+                    <div class="row justify-content-center ">
+                        <div class="col-4">
+                            <img src="/images/Search page/herbs.png">
+                        </div>
+                        <div class="col-4">
+                            <img src="/images/Search page/bushes.png">
+                        </div>
                     </div>
-                    <div class="col-4">
-                        <img src="/images/Search page/bushes.png">
+                    <div class="row justify-content-center">
+                        <div class="col-4">
+                            <img src="/images/Search page/plants.png">
+                        </div>
+                        <div class="col-4">
+                            <img src="/images/Search page/cactus.png">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-4">
+                            <img src="/images/Search page/flowers.png">
+                        </div>
+                        <div class="col-4">
+                            <img src="/images/Search page/trees.png">
+                        </div>
+                    </div>
+                </section>
+                <aside>
+                    <div class="whiteRectangle"></div>
+                    <input type="button" class="QRbutton">
+                </aside>
+            </article> -->
+
+            <article id="bySearch">
+                <div class="searchList">
+                    <div id="findFlower">
+                        <ul class="list">
+                        </ul>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-4">
-                        <img src="/images/Search page/plants.png">
-                    </div>
-                    <div class="col-4">
-                        <img src="/images/Search page/cactus.png">
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-4">
-                        <img src="/images/Search page/flowers.png">
-                    </div>
-                    <div class="col-4">
-                        <img src="/images/Search page/trees.png">
-                    </div>
-                </div>
-            </section>
-            <aside>
-                <div class="whiteRectangle"></div>
-                <input type="button" class="QRbutton">
-            </aside>
+            </article>
+
         </main>
-
 
         <footer>
             <a href="#" class="recommendedButton"></a>
@@ -70,11 +81,40 @@
     </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
     <script src="includes/main.js"></script>
 </body>
 
 </html>
+
+<!-- <body id="searchByName">
+        <div id="wrapper">
+    
+            <header>
+                <h2 class="headerSearchText">Search</h2>
+                <a href="#" class="backArrow"></a>
+            </header>
+    
+            <main>
+                <input type="text" id="myInput" placeholder="By plant's name" class="searchInput">
+                <div class="searchIcon"></div>
+                <button onclick="document.getElementById('myInput').value = ''" class="deleteIcon"></button>
+            </main>
+    
+            <aside>
+                <div class="sideLetters"></div>
+            </aside>
+    
+            <footer>
+                <a href="#" class="recommendedButton"></a>
+                <a href="index.html" class="myGardensButton"></a>
+                <a href="#" class="searchButton searchButton-Selected"></a>
+            </footer>
+    
+        </div>
+    </body> -->
