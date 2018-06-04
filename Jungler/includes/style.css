@@ -7,6 +7,12 @@ header, nav, main, section, aside, footer { display: block; }
     margin: 0px auto;
 }
 
+.text{
+    height: 300px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
 .clear { clear: both; }
 .clearer { clear: none; }
 
@@ -146,12 +152,13 @@ header, nav, main, section, aside, footer { display: block; }
         top: 195px;
         left: 343px;
     }
-    .flowerAddedBunner {
-        background-image: url("../images/General icons/flowerAddedBunner.png");
+    .flowerAddedBanner {
+        background-image: url("../images/General icons/flowerAddedBanner.png");
         background-repeat: no-repeat;
         width: 480px;
         height: 100px;
         position: absolute;
+        visibility: hidden;
     }
     .gardenNameText {
         font-weight: normal;
@@ -529,11 +536,9 @@ header, nav, main, section, aside, footer { display: block; }
         left: 180px;
     }
 
-<<<<<<< HEAD
 
 /* flowerAdded.HTML */
-=======
->>>>>>> c74984f9f58afbf691c4025243dfa4924bc9e414
+
 .list {
     margin-top: 50px;
     padding:21px 0 0;
@@ -638,8 +643,8 @@ input:focus {
 /* searchByCategory.HTML */
 
  #photosBootstrap {
-    /* position: absolute; */
-    top: 208px;
+    position: relative;
+    top: 155px;
     /* left: 80px; */
   }
   
@@ -793,12 +798,13 @@ input:focus {
         top: 95px;
         left: 511px;
     }
-    .flowerAddedBunner {
-        background-image: url("../images/Tablet/General icons/flowerAddedBunner.png");
+    .flowerAddedBanner {
+        background-image: url("../images/Tablet/General icons/flowerAddedBanner.png");
         background-repeat: no-repeat;
         width: 768px;
         height: 100px;
         position: absolute;
+        visibility: hidden;
     }
     .gardenNameText {
         font-weight: normal;

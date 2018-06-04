@@ -12,72 +12,60 @@
 </head>
 
 <body id="searchByCategory">
-    <div id="wrapper">
+    <div class="container">
 
         <header>
             <h2 class="headerSearchText">Search</h2>
         </header>
 
-<<<<<<< HEAD
         <main>
-            <input type="text" class="searchInput">
+
+            <input type="text" id="myInput" class="searchInput" placeholder="By plant's name">
+            <div class="searchIcon"></div>
+            <button onclick="document.getElementById('myInput').value = ''" class="deleteIcon"></button>
             <h2 class="categoriesSearchText">Categories</h2>
             <button class="filterButton"></button>
             <button class="infoButton"></button>
+
             <section id="photosBootstrap">
-                <div class="container">
-                    <div class="row justify-content-center ">
-                        <div class="col-4">
-                            <img src="/images/Search page/herbs.png">
-                        </div>
-                        <div class="col-4">
-                            <img src="/images/Search page/bushes.png">
-                        </div>
+                <div class="row justify-content-center ">
+                    <div class="col-4">
+                        <img src="/images/Search page/herbs.png">
                     </div>
-                    <div class="row justify-content-center">
-                        <div class="col-4">
-                            <img src="/images/Search page/plants.png">
-                        </div>
-                        <div class="col-4">
-                            <img src="/images/Search page/cactus.png">
-                        </div>
+                    <div class="col-4">
+                        <img src="/images/Search page/bushes.png">
                     </div>
-                    <div class="row justify-content-center">
-                        <div class="col-4">
-                            <img src="/images/Search page/flowers.png">
-                        </div>
-                        <div class="col-4">
-                            <img src="/images/Search page/trees.png">
-                        </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <img src="/images/Search page/plants.png">
+                    </div>
+                    <div class="col-4">
+                        <img src="/images/Search page/cactus.png">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <img src="/images/Search page/flowers.png">
+                    </div>
+                    <div class="col-4">
+                        <img src="/images/Search page/trees.png">
                     </div>
                 </div>
             </section>
-            <input type="button" class="QRbutton">
+            <aside>
+                <div class="whiteRectangle"></div>
+                <input type="button" class="QRbutton">
+            </aside>
         </main>
-=======
-    <main>
-        <input type="text" id="myInput" placeholder="By plant's name" class="searchInput">
-        <div class="searchIcon"></div>
-        <button onclick="document.getElementById('myInput').value = ''" class="deleteIcon"></button>
-        <h2 class="categoriesSearchText">Categories</h2>
-        <button class="filterButton"></button>
-        <button class="infoButton"></button>
-        <a href="#" class=""></a>
-        <a href="#" class=""></a>
-        <a href="#" class=""></a>
-        <a href="#" class=""></a>
-        <a href="#" class=""></a>
-        <a href="#" class=""></a>
-        <div class="whiteRectangle"></div>
-        <input type="button" class="QRbutton">
-    </main>
->>>>>>> c74984f9f58afbf691c4025243dfa4924bc9e414
+
 
         <footer>
             <a href="#" class="recommendedButton"></a>
             <a href="index.html" class="myGardensButton"></a>
             <a href="#" class="searchButton searchButton-Selected"></a>
         </footer>
+    </div>
 
     </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
