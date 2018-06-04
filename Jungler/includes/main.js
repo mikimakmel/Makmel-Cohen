@@ -1,8 +1,3 @@
-$("#myInput").click(function(){
-  // $("#byCategory").css("visibility", "hidden");
-  $("#byCategory").remove();
-});
-
 var options = {
   valueNames: ['name', 'family', { attr: 'src', name: 'image' }],
   item: '<li>' +
@@ -28,29 +23,6 @@ userList.add({ image: 'images/FlowersPng/Aibika.png', name: 'Aibika', family: 'A
 userList.add({ image: 'images/FlowersPng/Hibiscus.png', name: 'Hibiscus', family: 'Hibiscus genevil' });
 
 var values = [];
-
-/////////////////////////////////////////////////////////////////////////////////////////////////
-
-var searchList = {
-  valueNames: ['name', 'family', { attr: 'src', name: 'image' }],
-  item: '<li>' +
-    '<img class="image" src="">' +
-    '<span class="name listFont"></span>' +
-    '<img class="notificationImg notificationImgRight" src="images/Search page/arrow.png">' +
-    '<span class="family"></span>' +
-    '<img src="images/General icons/horizontalLine.png">' +
-    '</li>'
-};
-
-var flowerList = new List('findFlower', searchList, results);
-
-flowerList.add({ image: 'images/FlowersPng/Petunia.png', name: 'Petunia', family: 'Petunia axillaris' });
-flowerList.add({ image: 'images/FlowersPng/American Basswood.png', name: 'American Basswood', family: 'Tilia americana' });
-flowerList.add({ image: 'images/FlowersPng/Aibika.png', name: 'Aibika', family: 'Abelmoschus manihot' });
-flowerList.add({ image: 'images/FlowersPng/Hibiscus.png', name: 'Hibiscus', family: 'Hibiscus genevil' });
-
-var results = [];
-
 
 // $.getJSON("includes/flowers.json", function (data) {
 //   var items = [];
