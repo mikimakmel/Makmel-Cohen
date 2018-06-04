@@ -339,28 +339,28 @@ header, nav, main, section, aside, footer { display: block; }
         top: 711px;
         left: 323px;
     }
-    body#searchByName{
+    body#searchByCategory{
         width: 480px;
         height: 736px;
         background-image: url("../images/General icons/background.png");
         background-repeat: no-repeat;
     }
-    body#searchByName header {
+    body#searchByCategory header {
         width: 480px;
         height: 73px;
         float: left;
     }
-    body#searchByName main {
+    body#searchByCategory main {
         width: 456px;
         height: 596px;
         float: left;
     }
-    body#searchByName aside {
+    body#searchByCategory aside {
         width: 24px;
         height: 596px;
         float: left;
     }
-    body#searchByName footer {
+    body#searchByCategory footer {
         width: 480px;
         height: 67px;
         background-image: url("../images/General icons/footerBackground.png");
@@ -391,29 +391,6 @@ header, nav, main, section, aside, footer { display: block; }
         position: absolute;
         top: 103px;
         left: 67px;
-    }
-    body#searchByCategory{
-        width: 480px;
-        height: 736px;
-        background-image: url("../images/General icons/background.png");
-        background-repeat: no-repeat;
-    }
-    body#searchByCategory header {
-        width: 480px;
-        height: 73px;
-        float: left;
-    }
-    body#searchByCategory main {
-        width: 480px;
-        height: 596px;
-        float: left;
-    }
-    body#searchByCategory footer {
-        width: 480px;
-        height: 67px;
-        background-image: url("../images/General icons/footerBackground.png");
-        background-repeat: no-repeat;
-        float: left;
     }
     .categoriesSearchText {
         font-weight: bold;
@@ -501,6 +478,7 @@ header, nav, main, section, aside, footer { display: block; }
         border: none;
         background-color: transparent;
     }
+    .cancelContainerPadding { padding: 0px !important;}
     body#loadingPage{
         width: 480px;
         height: 736px;
@@ -998,34 +976,34 @@ header, nav, main, section, aside, footer { display: block; }
         margin-top: 198px;
         left: 540px;
     }
-    body#searchByName{
+    body#searchByCategory{
         width: 768px;
         height: 736px;
         background-image: url("../images/Tablet/General icons/background.png");
         background-repeat: no-repeat;
     }
-    body#searchByName header {
+    body#searchByCategory header {
         width: 768px;
         height: 73px;
         position: absolute;
         left: 0px;
         top: 0px;
     }
-    body#searchByName main {
+    body#searchByCategory main {
         width: 744px;
         height: 596px;
         position: absolute;
         left: 0px;
         top: 73px;
     }
-    body#searchByName aside {
+    body#searchByCategory aside {
         width: 24px;
         height: 596px;
         position: absolute;
         left: 744px;
         top: 73px;
     }
-    body#searchByName footer {
+    body#searchByCategory footer {
         width: 768px;
         height: 67px;
         background-image: url("../images/Tablet/General icons/footerBackground.png");
@@ -1091,35 +1069,6 @@ header, nav, main, section, aside, footer { display: block; }
         left: 536px;
         border: none;
         background-color: transparent;
-    }
-    body#searchByCategory{
-        width: 768px;
-        height: 736px;
-        background-image: url("../images/Tablet/General icons/background.png");
-        background-repeat: no-repeat;
-    }
-    body#searchByCategory header {
-        width: 768px;
-        height: 73px;
-        position: absolute;
-        left: 0px;
-        top: 0px;
-    }
-    body#searchByCategory main {
-        width: 768px;
-        height: 596px;
-        position: absolute;
-        left: 0px;
-        top: 73px;
-    }
-    body#searchByCategory footer {
-        width: 768px;
-        height: 67px;
-        background-image: url("../images/Tablet/General icons/footerBackground.png");
-        background-repeat: no-repeat;
-        position: absolute;
-        left: 0px;
-        top: 669px;
     }
     .categoriesSearchText {
         font-weight: bold;
