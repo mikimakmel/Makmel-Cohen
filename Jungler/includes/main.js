@@ -1,3 +1,6 @@
+var bool = 0;
+
+
 var options = {
   valueNames: ['name', 'family', { attr: 'src', name: 'image' }],
   item: '<li>' +
@@ -20,7 +23,19 @@ var userList = new List('users', options, values);
 userList.add({ image: 'images/FlowersPng/Petunia.png', name: 'Petunia', family: 'Petunia axillaris' });
 userList.add({ image: 'images/FlowersPng/American Basswood.png', name: 'American Basswood', family: 'Tilia americana' });
 userList.add({ image: 'images/FlowersPng/Aibika.png', name: 'Aibika', family: 'Abelmoschus manihot' });
-userList.add({ image: 'images/FlowersPng/Hibiscus.png', name: 'Hibiscus', family: 'Hibiscus genevil' });
+
+document.getElementById("addHibiscus").onclick = function boolFunction() {
+  // bool = 1;
+  // console.log(bool);
+  userList.add({ image: 'images/FlowersPng/Hibiscus.png', name: 'Hibiscus', family: 'Hibiscus genevil' });
+  $(".flowerAddedBanner").css("visibility", "visible");  
+}
+
+
+// if(bool == 1){
+//   userList.add({ image: 'images/FlowersPng/Hibiscus.png', name: 'Hibiscus', family: 'Hibiscus genevil' });
+//   $(".flowerAddedBanner").css("visibility", "visible");  
+// }
 
 var values = [];
 

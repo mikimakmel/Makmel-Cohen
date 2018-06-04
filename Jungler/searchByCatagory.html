@@ -19,11 +19,12 @@
         </header>
 
         <main>
-
-            <input type="text" id="myInput" class="searchInput" placeholder="By plant's name">
+            <form id="myForm" name="search" action="#" method="GET">
+            <input type="text" id="myInput" class="searchInput search" placeholder="By plant's name">
+            </form>
             <div class="searchIcon"></div>
-            <button onclick="document.getElementById('myInput').value = ''" id="deleteIcon"></button>
-            <!-- <article id="byCategory">
+            <button onclick="document.getElementById('myInput').value = ''" id="deleteIcon" data-sort="family" class="sort"></button>
+            <article id="byCategory">
                 <h2 class="categoriesSearchText">Categories</h2>
                 <button class="filterButton"></button>
                 <button class="infoButton"></button>
@@ -58,7 +59,7 @@
                     <div class="whiteRectangle"></div>
                     <input type="button" class="QRbutton">
                 </aside>
-            </article> -->
+            </article>
 
             <article id="bySearch">
                 <div class="searchList">
