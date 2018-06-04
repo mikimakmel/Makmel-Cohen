@@ -23,7 +23,7 @@
             <input type="text" id="myInput" class="searchInput search" placeholder="By plant's name">
             </form>
             <div class="searchIcon"></div>
-            <button onclick="document.getElementById('myInput').value = ''" id="deleteIcon" data-sort="family" class="sort"></button>
+
             <article id="byCategory">
                 <h2 class="categoriesSearchText">Categories</h2>
                 <button class="filterButton"></button>
@@ -32,33 +32,31 @@
                 <section id="photosBootstrap">
                     <div class="row justify-content-center ">
                         <div class="col-4">
-                            <img src="/images/Search page/herbs.png">
+                            <img src="images/Search page/herbs.png">
                         </div>
                         <div class="col-4">
-                            <img src="/images/Search page/bushes.png">
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-4">
-                            <img src="/images/Search page/plants.png">
-                        </div>
-                        <div class="col-4">
-                            <img src="/images/Search page/cactus.png">
+                            <img src="images/Search page/bushes.png">
                         </div>
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-4">
-                            <img src="/images/Search page/flowers.png">
+                            <img src="images/Search page/plants.png">
                         </div>
                         <div class="col-4">
-                            <img src="/images/Search page/trees.png">
+                            <img src="images/Search page/cactus.png">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-4">
+                            <img src="images/Search page/flowers.png">
+                        </div>
+                        <div class="col-4">
+                            <img src="images/Search page/trees.png">
                         </div>
                     </div>
                 </section>
-                <aside>
-                    <div class="whiteRectangle"></div>
-                    <input type="button" class="QRbutton">
-                </aside>
+                <div class="whiteRectangle"></div>
+                <input type="button" class="QRbutton">
             </article>
 
             <article id="bySearch">
@@ -70,10 +68,11 @@
                 </div>
             </article>
 
+
         </main>
 
         <aside>
-            <div class="sideLetters"></div>
+            <div id="sideLetters"></div>
         </aside>
 
         <footer>

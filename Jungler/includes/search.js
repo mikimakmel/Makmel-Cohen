@@ -1,8 +1,9 @@
 var bool = 0;
 
-$("#myInput").click(function(){
+  $("#myInput").click(function(){
   $("#byCategory").remove();
-  
+  $("#sideLetters").css("visibility", "visible");
+
   if(bool == 0){
     var searchList = {
       valueNames: ['name', 'family', { attr: 'src', name: 'image' }],
@@ -20,7 +21,7 @@ $("#myInput").click(function(){
     };
     
     var flowerList = new List('findFlower', searchList, results);
-    
+
     flowerList.add({ image: 'images/FlowersPng/Aibika.png', name: 'Aibika', family: 'Abelmoschus manihot' });
     flowerList.add({ image: 'images/FlowersPng/American Basswood.png', name: 'American Basswood', family: 'Tilia americana' });
     flowerList.add({ image: 'images/FlowersPng/Hibiscus.png', name: 'Hibiscus', family: 'Hibiscus genevil' });
@@ -29,6 +30,8 @@ $("#myInput").click(function(){
     var results = [];
   }
   bool++;
+
+
 });
 
 // $("#addFlower").click(function(){

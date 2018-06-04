@@ -623,12 +623,12 @@ header, nav, main, section, aside, footer { display: block; }
 
 /* searchByCategory.HTML */
 
- #photosBootstrap {
-    position: relative;
-    top: 155px;
-    /* left: 80px; */
-  }
-  
+    #photosBootstrap {
+        position: relative;
+        top: 155px;
+        left: 15px;
+    }
+
   /* .col img {
     margin-top: 8px;
     vertical-align: middle;
@@ -781,7 +781,7 @@ header, nav, main, section, aside, footer { display: block; }
         left: 511px;
     }
     .flowerAddedBanner {
-        background-image: url("../images/Tablet/General icons/flowerAddedBanner.png");
+        background-image: url("../images/Tablet/General icons/flowerAddedBunner.png");
         background-repeat: no-repeat;
         width: 768px;
         height: 100px;
@@ -1021,7 +1021,7 @@ header, nav, main, section, aside, footer { display: block; }
         top: 19px;
         left: 345px;
     }
-    .sideLetters {
+    #sideLetters {
         background-image: url("../images/General icons/sideLetters.png");
         background-repeat: no-repeat;
         width: 16px;
@@ -1029,6 +1029,7 @@ header, nav, main, section, aside, footer { display: block; }
         position: absolute;
         top: 108px;
         left: 0px;
+        visibility: hidden;
     }
     .searchInput {
         width: 347px;
@@ -1087,7 +1088,7 @@ header, nav, main, section, aside, footer { display: block; }
         width: 31px;
         height: 31px;
         position: absolute;
-        top: 154px;
+        top: 81px;
         left: 32px;
         border: none;
         background-color: transparent;
@@ -1098,7 +1099,7 @@ header, nav, main, section, aside, footer { display: block; }
         width: 24px;
         height: 24px;
         position: absolute;
-        top: 161px;
+        top: 88px;
         right: 30px;
         border: none;
         background-color: transparent;
@@ -1265,5 +1266,14 @@ header, nav, main, section, aside, footer { display: block; }
     }
     .padLine{
         margin-top: 30px;
+    }
+
+
+    /* searchByCategory.HTML */
+
+    #photosBootstrap {
+        position: relative;
+        top: 155px;
+        left: 65px;
     }
 }

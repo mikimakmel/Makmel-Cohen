@@ -1,6 +1,3 @@
-var bool = 0;
-
-
 var options = {
   valueNames: ['name', 'family', { attr: 'src', name: 'image' }],
   item: '<li>' +
@@ -24,18 +21,21 @@ userList.add({ image: 'images/FlowersPng/Petunia.png', name: 'Petunia', family: 
 userList.add({ image: 'images/FlowersPng/American Basswood.png', name: 'American Basswood', family: 'Tilia americana' });
 userList.add({ image: 'images/FlowersPng/Aibika.png', name: 'Aibika', family: 'Abelmoschus manihot' });
 
-document.getElementById("addHibiscus").onclick = function boolFunction() {
-  // bool = 1;
-  // console.log(bool);
-  userList.add({ image: 'images/FlowersPng/Hibiscus.png', name: 'Hibiscus', family: 'Hibiscus genevil' });
-  $(".flowerAddedBanner").css("visibility", "visible");  
-}
 
-
-// if(bool == 1){
-//   userList.add({ image: 'images/FlowersPng/Hibiscus.png', name: 'Hibiscus', family: 'Hibiscus genevil' });
-//   $(".flowerAddedBanner").css("visibility", "visible");  
+// var win = document.getElementById("Hibiscus");
+//
+// win.window.onload=function(){
+//     var tmp = document.getElementById("theButton");
+//     tmp.addEventListener("click", boolFunction());
+//
+//
 // }
+//
+function boolFunction() {
+    userList.add({ image: 'images/FlowersPng/Hibiscus.png', name: 'Hibiscus', family: 'Hibiscus genevil' });
+    $(".flowerAddedBanner").css("visibility", "visible");
+    console.log("ENTER");
+}
 
 var values = [];
 
