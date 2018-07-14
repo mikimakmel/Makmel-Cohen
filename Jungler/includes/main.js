@@ -1,25 +1,25 @@
-var options = {
-  valueNames: ['name', 'family', { attr: 'src', name: 'image' }],
-  item: '<li>' +
-    '<img class="image" src="">' +
-    '<span class="name listFont"></span>' +
-    '<img class="notificationImg notificationImgRight" src="images/Agams garden/trim.png">' +
-    '<img class="notificationImg" src="images/Agams garden/water.png">' +
-    '<div class="clearer"></div>' +
-    '<span class="family"></span>' +
-    '<img class="notificationImg notificationImgRight" src="images/Agams garden/harvest.png">' +
-    '<img class="notificationImg" src="images/Agams garden/fertilize.png">' +
-    '<img src="images/General icons/horizontalLine.png">' +
-    '</li>'
-};
+// var options = {
+//   valueNames: ['name', 'family', { attr: 'src', name: 'image' }],
+//   item: '<li>' +
+//     '<img class="image" src="">' +
+//     '<span class="name listFont"></span>' +
+//     '<img class="notificationImg notificationImgRight" src="images/Agams garden/trim.png">' +
+//     '<img class="notificationImg" src="images/Agams garden/water.png">' +
+//     '<div class="clearer"></div>' +
+//     '<span class="family"></span>' +
+//     '<img class="notificationImg notificationImgRight" src="images/Agams garden/harvest.png">' +
+//     '<img class="notificationImg" src="images/Agams garden/fertilize.png">' +
+//     '<img src="images/General icons/horizontalLine.png">' +
+//     '</li>'
+// };
 
-var path = 'images/FlowersPng/';
-var suffix = '.png';
-var userList = new List('users', options, values);
+// var path = 'images/FlowersPng/';
+// var suffix = '.png';
+// var userList = new List('users', options, values);
 
-userList.add({ image: 'images/FlowersPng/Petunia.png', name: 'Petunia', family: 'Petunia axillaris' });
-userList.add({ image: 'images/FlowersPng/American Basswood.png', name: 'American Basswood', family: 'Tilia americana' });
-userList.add({ image: 'images/FlowersPng/Aibika.png', name: 'Aibika', family: 'Abelmoschus manihot' });
+// userList.add({ image: 'images/FlowersPng/Petunia.png', name: 'Petunia', family: 'Petunia axillaris' });
+// userList.add({ image: 'images/FlowersPng/American Basswood.png', name: 'American Basswood', family: 'Tilia americana' });
+// userList.add({ image: 'images/FlowersPng/Aibika.png', name: 'Aibika', family: 'Abelmoschus manihot' });
 
 
 // var win = document.getElementById("Hibiscus");
@@ -39,11 +39,13 @@ function boolFunction() {
 
 var values = [];
 
-// $.getJSON("includes/flowers.json", function (data) {
-//   var items = [];
-//   $.each(data, function (key, val) {
-//     items.push(key, val);
-//   });
+$.getJSON("includes/flowers.json", function (data) {
+  var items = [];
+  $.each(data, function (key, val) {
+    items.push(key, val);
+    console.log(items);
+  }
+);
 
   // $.getJSON("includes/flowers.json", function (data) {
   //   var items = [];

@@ -1,17 +1,40 @@
-[
-	{
-		"name": "Petunia",
-		"family": "Petunia Axillaris"
-	},
-	{
-		"name": "American Basswood",
-		"family": "Tilia Americana"
-	},	{
-		"name": "Aibika",
-		"family": "Abelmoschus Manihot"
-	},	{
-		"name": "Hibiscus",
-		"family": "Hibiscus Genevil"
-	}
-]
-
+{
+	"flowers": [
+		{
+			"name": "Petunia",
+			"family": "Petunia Axillaris",
+			"duration": "Annually",
+			"water":"Low",
+			"space":"50 cm",
+			"planting":"Late Summer",
+			"exposure":"Half Shade"
+		},
+		{
+			"name": "American Basswood",
+			"family": "Tilia Americana",
+			"duration": "Annually",			
+			"water":"Medium",
+			"space":"2 m",
+			"planting":"Early Spring",
+			"exposure":"Sun"
+		},
+		{
+			"name": "Aibika",
+			"family": "Abelmoschus Manihot",
+			"duration": "Annually",			
+			"water":"Medium",
+			"space":"2 m",
+			"planting":"Early Spring",
+			"exposure":"Sun"
+		},
+		{
+			"name": "Hibiscus",
+			"family": "Hibiscus Genevil",
+			"duration": "Annually",			
+			"water":"Low",
+			"space":"50 cm",
+			"planting":"Late Summer",
+			"exposure":"Half Shade"
+		}
+	]
+}
