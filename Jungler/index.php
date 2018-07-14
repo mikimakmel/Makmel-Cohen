@@ -19,7 +19,6 @@
         <div class="headerBar"></div>
         <a href="#" class="hamburger"></a>
         <a href="#" class="options"></a>
-        <!--<div class="flowerAddedBanner"></div>-->
     </header>
 
     <main>
@@ -27,58 +26,28 @@
         <div class="listBackground">
             <div id="users">
                 <?php
-                include('db.php');
-                echo '<ul class="list">'
+                	include('db.php');
+	
+                    $select = "SELECT * FROM jungler order by id";    
+                    $result = mysqli_query($connection, $select);
+                
+                    if(!$result) {
+                        die('SELECT Query failed');
+                    }
+
+                echo '<ul class="list">';
                 while($row = mysqli_fetch_assoc($result)){
-                    echo '<li><img class="image" src="images/FlowersPng/' . $row["flower"]'.png"><span class="name listFont">' . $row["flower"] . "</span></li>";
+                     echo '<li><img class="image" src="images/FlowersPng/' . $row["flower"] . '.png">';
+                     echo '<span class="name listFont">' . $row["flower"] . '</span>';
+                     echo '<img class="notificationImg notificationImgRight" src="images/Agams garden/trim.png">';
+                     echo '<img class="notificationImg" src="images/Agams garden/water.png">';
+                     echo '<div class="clearer"></div>';
+                     echo '<span class="family">'. $row["family"] .'</span>';
+                     echo '<img class="notificationImg notificationImgRight" src="images/Agams garden/harvest.png">';
+                     echo '<img class="notificationImg" src="images/Agams garden/fertilize.png">';
+                     echo '<img src="images/General icons/horizontalLine.png"></li>';
                 }
-                echo "</ul>";
-                // <ul class="list">
-                //     <li>
-                //         <img class="image" src="images/FlowersPng/Petunia.png">
-                //         <span class="name listFont">Petunia</span>
-                //         <img class="notificationImg notificationImgRight" src="images/Agams garden/trim.png">
-                //         <img class="notificationImg" src="images/Agams garden/water.png">
-                //         <div class="clearer"></div>
-                //         <span class="family">Petunia axillaris</span>
-                //         <img class="notificationImg notificationImgRight" src="images/Agams garden/harvest.png">
-                //         <img class="notificationImg" src="images/Agams garden/fertilize.png">
-                //         <img src="images/General icons/horizontalLine.png">
-                //     </li>
-                //     <li>
-                //         <img class="image" src="images/FlowersPng/American Basswood.png">
-                //         <span class="name listFont">American Basswood</span>
-                //         <img class="notificationImg notificationImgRight" src="images/Agams garden/trim.png">
-                //         <img class="notificationImg" src="images/Agams garden/water.png">
-                //         <div class="clearer"></div>
-                //         <span class="family">Tilia americana</span>
-                //         <img class="notificationImg notificationImgRight" src="images/Agams garden/harvest.png">
-                //         <img class="notificationImg" src="images/Agams garden/fertilize.png">
-                //         <img src="images/General icons/horizontalLine.png">
-                //     </li>
-                //     <li>
-                //         <img class="image" src="images/FlowersPng/Aibika.png">
-                //         <span class="name listFont">Aibika</span>
-                //         <img class="notificationImg notificationImgRight" src="images/Agams garden/trim.png">
-                //         <img class="notificationImg" src="images/Agams garden/water.png">
-                //         <div class="clearer"></div>
-                //         <span class="family">Abelmoschus manihot</span>
-                //         <img class="notificationImg notificationImgRight" src="images/Agams garden/harvest.png">
-                //         <img class="notificationImg" src="images/Agams garden/fertilize.png">
-                //         <img src="images/General icons/horizontalLine.png">
-                //     </li>
-                //     <li>
-                //         <img class="image" src="">
-                //         <span class="name listFont"></span>
-                //         <img class="notificationImg notificationImgRight" src="images/Agams garden/trim.png">
-                //         <img class="notificationImg" src="images/Agams garden/water.png">
-                //         <div class="clearer"></div>
-                //         <span class="family"></span>
-                //         <img class="notificationImg notificationImgRight" src="images/Agams garden/harvest.png">
-                //         <img class="notificationImg" src="images/Agams garden/fertilize.png">
-                //         <img src="images/General icons/horizontalLine.png">
-                //     </li>
-                // </ul>
+				echo "</ul>";
                 ?>
             </div>
         </div>
