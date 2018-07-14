@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jungler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee|Abhaya+Libre' rel='stylesheet'>
+    <link rel="stylesheet" href="includes/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+          crossorigin="anonymous">
+</head>
+
+<body id="myPlantsPage">
+<div id="wrapper">
+
+    <header>
+        <div class="flowerCoverPic"></div>
+        <a href="#" class="logoMobile"></a>
+        <a href="searchByCatagory.html" class="backArrow"></a>
+        <h3 class="plantsCoverText">Hibiscus</h3>
+    </header>
+
+    <main>
+        <div class="separationLine lineLocation"></div>
+        <h3 class="plantsMainTextHeadline plantsMainTextFamily">Family</h3>
+        <h3 class="plantsMainTextHeadline plantsMainTextDuration">Duration</h3>
+        <h2 class="plantsMainTextInfo plantsMainTextFamilyInfo">Malvales</h2>
+        <h2 class="plantsMainTextInfo plantsMainTextDurationInfo">Annually</h2>
+
+
+        <div class="infoBoxesForPlant waterInfo"></div>
+        <h2 class="infoBoxText waterInfoHeadline">Water</h2>
+        <h2 class="infoBoxText waterInfoContents">Low</h2>
+        <div class="infoBoxesForPlant plantingInfo"></div>
+        <h2 class="infoBoxText plantingInfoHeadline">Planting</h2>
+        <h2 class="infoBoxText plantingInfoContents">Late Summer</h2>
+        <div class="infoBoxesForPlant spaceInfo"></div>
+        <h2 class="infoBoxText spaceInfoHeadline">Space</h2>
+        <h2 class="infoBoxText spaceInfoContents">50 cm</h2>
+        <div class="infoBoxesForPlant exposureInfo"></div>
+        <h2 class="infoBoxText exposureInfoHeadline">Exposure</h2>
+        <h2 class="infoBoxText exposureInfoContents">Half Shade</h2>
+
+        <div id="hideRectangle"></div>
+
+        <button id="infoButton"></button>
+        <button id="notificationsButton"></button>
+        <div class="horizontalLine"></div>
+        <div id="chosenLine"></div>
+        <h3 id="notificationsHeadText">Notifications</h3>
+        <div id="bellIcon"></div>
+        <p id="paragraphText">There are no reminders. <br><br>
+            We strongly recommend to set some for the best of your plants!</p>
+        <button id="plusNotificationsButton"></button>
+        <div id="orLine"></div>
+        <button id="useDefaultButton"></button>
+        <div id="darkenBackground"></div>
+        <div id="chooseKindBackground"></div>
+        <button id="cancelButton"></button>
+        <h3 id="chooseKindText">Choose kind:</h3>
+
+        <form id="notificationsForm" action="#" method="GET">
+            <div id="waterIcon"></div>
+            <label id="waterText" for="waterIcon">Water</label>
+            <input type="checkbox" id="waterCheckbox" name="notificationsKind[]" value="Water">
+
+            <div id="trimIcon"></div>
+            <label id="trimText" for="trimIcon">Trim</label>
+            <input type="checkbox" id="trimCheckbox" name="notificationsKind[]" value="Trim">
+
+            <div id="fertilizeIcon"></div>
+            <label id="fertilizeText" for="fertilizeIcon">Fertilize</label>
+            <input type="checkbox" id="fertilizeCheckbox" name="notificationsKind[]" value="Fertilize">
+
+            <div id="harvestIcon"></div>
+            <label id="harvestText" for="harvestIcon">Harvest</label>
+            <input type="checkbox" id="harvestCheckbox" name="notificationsKind[]" value="Harvest">
+
+            <input type="button" id="okButton" value="ok">
+        </form>
+
+        <div id="bannerBackground"></div>
+        <div id="reminderEnableBanner"></div>
+
+        <div id="waterIconBIGGER"></div>
+        <div id="onIcon"></div>
+        <h2 id="waterTimeText">19:00</h2>
+        <h3 id="waterHeadText">Water</h3>
+        <h4 id="waterRepeatText">Every day</h4>
+    </main>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+<script src="includes/main.js"></script>
+<script src="includes/myPlantsButtons.js"></script>
+</body>
+
+</html>
