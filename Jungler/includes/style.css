@@ -17,7 +17,7 @@ header, nav, main, section, aside, footer { display: block; }
 .clearer { clear: none; }
 
 /*mobile*/
-@media screen and (max-width: 495px) {
+@media screen and (max-width: 484px) {
     body#AgamsGarden{
         width: 480px;
         height: 736px;
@@ -181,18 +181,18 @@ header, nav, main, section, aside, footer { display: block; }
         width: 480px;
         height: 182px;
     }
-    body#Hibiscus footer {
+    body#Hibiscus nav {
         width: 480px;
         height: 220px;
     }
-    .flowerCoverPic {
+    body#Hibiscus .flowerCoverPic {
         background-image: url("../images/Flowers page/Hibiscus.png");
         background-repeat: no-repeat;
         width: 480px;
         height: 334px;
         position: absolute;
     }
-    .backArrow {
+    body#Hibiscus .backArrow {
         background-image: url("../images/General icons/backArrow.png");
         background-repeat: no-repeat;
         width: 73px;
@@ -201,7 +201,7 @@ header, nav, main, section, aside, footer { display: block; }
         top: 13px;
         left: -6px;
     }
-    .addToGardenButton {
+    body#Hibiscus .addToGardenButton {
         background-image: url("../images/Flowers page/addFlowerButton.png");
         background-repeat: no-repeat;
         width: 221px;
@@ -212,7 +212,7 @@ header, nav, main, section, aside, footer { display: block; }
         border: none;
         background-color: transparent;
     }
-    .separationLine {
+    body#Hibiscus .separationLine {
         background-image: url("../images/Flowers page/separationLine.png");
         background-repeat: no-repeat;
         width: 1px;
@@ -221,7 +221,7 @@ header, nav, main, section, aside, footer { display: block; }
         top: 396px;
         left: 241px;
     }
-    .plantsCoverText {
+    body#Hibiscus .plantsCoverText {
         font-weight: normal;
         font-size: 26px;
         font-family: 'Abhaya Libre'!important;
@@ -230,110 +230,110 @@ header, nav, main, section, aside, footer { display: block; }
         top: 271px;
         left: 18px;
     }
-    .plantsMainTextHeadline {
+    body#Hibiscus .plantsMainTextHeadline {
         font-weight: normal;
         font-size: 18px;
         font-family: 'Abhaya Libre'!important;
         color: #629c44;
         position: absolute;
     }
-    .plantsMainTextInfo {
+    body#Hibiscus .plantsMainTextInfo {
         font-weight: normal;
         font-size: 24px;
         font-family: 'Abhaya Libre'!important;
         color: #4d4c4c;
         position: absolute;
     }
-    .plantsMainTextFamily {
+    body#Hibiscus .plantsMainTextFamily {
         top: 396px;
         left: 100px;
     }
-    .plantsMainTextDuration {
+    body#Hibiscus .plantsMainTextDuration {
         top: 396px;
         left: 329px;
     }
-    .plantsMainTextFamilyInfo {
+    body#Hibiscus .plantsMainTextFamilyInfo {
         top: 428px;
         left: 78px;
     }
-    .plantsMainTextDurationInfo {
+    body#Hibiscus .plantsMainTextDurationInfo {
         top: 428px;
         left: 315px;
     }
-    .infoBoxesForPlant {
+    body#Hibiscus .infoBoxesForPlant {
         background-repeat: no-repeat;
         position: absolute;
         width: 240px;
         height: 110px;
     }
-    .waterInfo {
+    body#Hibiscus .waterInfo {
         background-image: url("../images/Flowers page/waterInfo.png");
         top: 516px;
         left: 1px;
     }
-    .plantingInfo {
+    body#Hibiscus .plantingInfo {
         background-image: url("../images/Flowers page/plantingInfo.png");
         top: 626px;
         left: 1px;
     }
-    .spaceInfo {
+    body#Hibiscus .spaceInfo {
         background-image: url("../images/Flowers page/spaceInfo.png");
         top: 516px;
         left: 240px;
     }
-    .exposureInfo {
+    body#Hibiscus .exposureInfo {
         background-image: url("../images/Flowers page/exposureInfo.png");
         top: 626px;
         left: 240px;
     }
-    .infoBoxText {
+    body#Hibiscus .infoBoxText {
         font-weight: normal;
         font-family: 'ABeeZee' !important;
         position: absolute;
     }
-    .waterInfoHeadline {
+    body#Hibiscus .waterInfoHeadline {
         font-size: 18px;
         color: #008db1;
         top: 529px;
         left: 95px;
     }
-    .waterInfoContents {
+    body#Hibiscus .waterInfoContents {
         font-size: 14px;
         color: #008db1;
         top: 597px;
         left: 106px;
     }
-    .plantingInfoHeadline {
+    body#Hibiscus .plantingInfoHeadline {
         font-size: 18px;
         color: #ffb92e;
         top: 639px;
         left: 85px;
     }
-    .plantingInfoContents {
+    body#Hibiscus .plantingInfoContents {
         font-size: 14px;
         color: #ffb92e;
         top: 711px;
         left: 76px;
     }
-    .spaceInfoHeadline {
+    body#Hibiscus .spaceInfoHeadline {
         font-size: 18px;
         color: #bed49f;
         top: 529px;
         left: 334px;
     }
-    .spaceInfoContents {
+    body#Hibiscus .spaceInfoContents {
         font-size: 14px;
         color: #bed49f;
         top: 596px;
         left: 340px;
     }
-    .exposureInfoHeadline {
+    body#Hibiscus .exposureInfoHeadline {
         font-size: 18px;
         color: #79478f;
         top: 639px;
         left: 319px;
     }
-    .exposureInfoContents {
+    body#Hibiscus .exposureInfoContents {
         font-size: 14px;
         color: #79478f;
         top: 711px;
@@ -360,7 +360,7 @@ header, nav, main, section, aside, footer { display: block; }
         height: 596px;
         float: left;
     }
-    body#searchByCategory footer {
+    body#searchByCategory nav {
         width: 480px;
         height: 67px;
         background-image: url("../images/General icons/footerBackground.png");
@@ -633,526 +633,522 @@ header, nav, main, section, aside, footer { display: block; }
     margin-top: 8px;
     vertical-align: middle;
   }  */
-}
-/*myPlantsPage*/
-body#myPlantsPage{
-    width: 480px;
-    height: 736px;
-}
-body#myPlantsPage header {
-    width: 480px;
-    height: 334px;
-}
-body#myPlantsPage main {
-    width: 480px;
-    height: 182px;
-}
-body#myPlantsPage nav {
-    width: 480px;
-    height: 220px;
-}
-.flowerCoverPic {
-    background-image: url("../images/Flowers page/Hibiscus.png");
-    background-repeat: no-repeat;
-    width: 480px;
-    height: 334px;
-    position: absolute;
-}
-.backArrow {
-    background-image: url("../images/General icons/backArrow.png");
-    background-repeat: no-repeat;
-    width: 73px;
-    height: 48px;
-    position: absolute;
-    top: 13px;
-    left: -6px;
-}
-.separationLine {
-    background-image: url("../images/myPlant page/Vertical_Line.png");
-    background-repeat: no-repeat;
-    width: 1px;
-    height: 74px;
-    position: absolute;
-    top: 417px;
-    left: 240px;
-}
-.plantsCoverText {
-    font-weight: normal;
-    font-size: 26px;
-    font-family: 'Abhaya Libre'!important;
-    color: white;
-    position: absolute;
-    top: 271px;
-    left: 18px;
-}
-.plantsMainTextHeadline {
-    font-weight: normal;
-    font-size: 18px;
-    font-family: 'Abhaya Libre'!important;
-    color: #629c44;
-    position: absolute;
-}
-.plantsMainTextInfo {
-    font-weight: normal;
-    font-size: 24px;
-    font-family: 'Abhaya Libre'!important;
-    color: #4d4c4c;
-    position: absolute;
-}
-.plantsMainTextFamily {
-    top: 423px;
-    left: 97px;
-}
-.plantsMainTextDuration {
-    top: 423px;
-    left: 330px;
-}
-.plantsMainTextFamilyInfo {
-    top: 448px;
-    left: 72px;
-}
-.plantsMainTextDurationInfo {
-    top: 448px;
-    left: 319px;
-}
-.infoBoxesForPlant {
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 240px;
-    height: 110px;
-}
-.waterInfo {
-    background-image: url("../images/Flowers page/waterInfo.png");
-    top: 516px;
-    left: 1px;
-}
-.plantingInfo {
-    background-image: url("../images/Flowers page/plantingInfo.png");
-    top: 626px;
-    left: 1px;
-}
-.spaceInfo {
-    background-image: url("../images/Flowers page/spaceInfo.png");
-    top: 516px;
-    left: 240px;
-}
-.exposureInfo {
-    background-image: url("../images/Flowers page/exposureInfo.png");
-    top: 626px;
-    left: 240px;
-}
-.infoBoxText {
-    font-weight: normal;
-    font-family: 'ABeeZee' !important;
-    position: absolute;
-}
-.waterInfoHeadline {
-    font-size: 18px;
-    color: #008db1;
-    top: 529px;
-    left: 95px;
-}
-.waterInfoContents {
-    font-size: 14px;
-    color: #008db1;
-    top: 597px;
-    left: 106px;
-}
-.plantingInfoHeadline {
-    font-size: 18px;
-    color: #ffb92e;
-    top: 639px;
-    left: 85px;
-}
-.plantingInfoContents {
-    font-size: 14px;
-    color: #ffb92e;
-    top: 711px;
-    left: 76px;
-}
-.spaceInfoHeadline {
-    font-size: 18px;
-    color: #bed49f;
-    top: 529px;
-    left: 334px;
-}
-.spaceInfoContents {
-    font-size: 14px;
-    color: #bed49f;
-    top: 596px;
-    left: 340px;
-}
-.exposureInfoHeadline {
-    font-size: 18px;
-    color: #79478f;
-    top: 639px;
-    left: 319px;
-}
-.exposureInfoContents {
-    font-size: 14px;
-    color: #79478f;
-    top: 711px;
-    left: 323px;
-}
-#infoButton {
-    background-image: url("../images/myPlant page/plantInfoIcon - selected.png");
-    background-repeat: no-repeat;
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    top: 350px;
-    left: 105px;
-    border: none;
-    background-color: transparent;
-}
-#notificationsButton {
-    background-image: url("../images/myPlant page/plantNotificationIcon.png");
-    background-repeat: no-repeat;
-    width: 27px;
-    height: 32px;
-    position: absolute;
-    top: 350px;
-    left: 347px;
-    border: none;
-    background-color: transparent;
-}
-.horizontalLine {
-    background-image: url("../images/myPlant page/Horizontal_Line.png");
-    background-repeat: no-repeat;
-    width: 480px;
-    height: 1px;
-    position: absolute;
-    top: 394px;
-    left: 0px;
-}
-#chosenLine {
-    background-image: url("../images/myPlant page/chosenLine.png");
-    background-repeat: no-repeat;
-    width: 239px;
-    height: 6px;
-    position: absolute;
-    top: 391px;
-    left: -2px;
-}
-#notificationsHeadText {
-    font-weight: normal;
-    font-size: 20px;
-    font-family: 'ABeeZee'!important;
-    color: #606060;
-    position: absolute;
-    top: 426px;
-    left: 180px;
-    display: none;
-}
-#bellIcon {
-    background-image: url("../images/myPlant page/bellIcon.png");
-    background-repeat: no-repeat;
-    width: 41px;
-    height: 41px;
-    position: absolute;
-    top: 463px;
-    left: 219px;
-    display: none;
-}
-#paragraphText {
-    font-weight: normal;
-    font-size: 12px;
-    font-family: 'ABeeZee'!important;
-    color: #7a7a7a;
-    position: absolute;
-    top: 513px;
-    left: 57px;
-    text-align: center;
-    display: none;
-    line-height: 1.3;
-}
-#plusNotificationsButton {
-    background-image: url("../images/myPlant page/plusButton.png");
-    background-repeat: no-repeat;
-    width: 33px;
-    height: 33px;
-    position: absolute;
-    top: 594px;
-    left: 224px;
-    border: none;
-    background-color: transparent;
-    display: none;
-}
-#orLine {
-    background-image: url("../images/myPlant page/or.png");
-    background-repeat: no-repeat;
-    width: 72px;
-    height: 15px;
-    position: absolute;
-    top: 637px;
-    left: 204px;
-    display: none;
-}
-#useDefaultButton {
-    background-image: url("../images/myPlant page/useDefaultButton.png");
-    background-repeat: no-repeat;
-    width: 162px;
-    height: 34px;
-    position: absolute;
-    top: 670px;
-    left: 159px;
-    border: none;
-    background-color: transparent;
-    display: none;
-}
-#hideRectangle {
-    background-image: url("../images/myPlant page/hideRectangle.png");
-    background-repeat: no-repeat;
-    width: 480px;
-    height: 330px;
-    position: absolute;
-    top: 407px;
-    left: 0px;
-    display: none;
-}
-#darkenBackground {
-    background-image: url("../images/myPlant page/darkenBackground.png");
-    background-repeat: no-repeat;
-    width: 480px;
-    height: 736px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    display: none;
-}
-#chooseKindBackground {
-    background-image: url("../images/myPlant page/chooseKindBackground.png");
-    background-repeat: no-repeat;
-    width: 351px;
-    height: 367px;
-    position: absolute;
-    top: 229px;
-    left: 64px;
-    display: none;
-}
-#cancelButton {
-    background-image: url("../images/myPlant page/cancelIcon.png");
-    background-repeat: no-repeat;
-    width: 21px;
-    height: 20px;
-    position: absolute;
-    top: 241px;
-    left: 378px;
-    border: none;
-    background-color: transparent;
-    display: none;
-}
-#okButton {
-    background-image: url("../images/myPlant page/okButton.png");
-    background-repeat: no-repeat;
-    width: 114px;
-    height: 25px;
-    position: absolute;
-    top: 555px;
-    left: 183px;
-    border: none;
-    background-color: transparent;
-    text-indent: 100px;
-    display: none;
-}
-#chooseKindText {
-    font-weight: normal;
-    font-size: 18px;
-    font-family: 'ABeeZee'!important;
-    color: #444444;
-    position: absolute;
-    top: 262px;
-    left: 188px;
-    display: none;
-}
-#waterIcon {
-    background-image: url("../images/myPlant page/waterIcon.png");
-    background-repeat: no-repeat;
-    width: 31px;
-    height: 31px;
-    position: absolute;
-    top: 312px;
-    left: 94px;
-    display: none;
-}
-#waterText {
-    font-weight: normal;
-    font-size: 18px;
-    font-family: 'ABeeZee'!important;
-    color: #a9d4ff;
-    position: absolute;
-    top: 317px;
-    left: 145px;
-    display: none;
-}
-#waterCheckbox {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    top: 314px;
-    left: 358px;
-    display: none;
-}
-#trimIcon {
-    background-image: url("../images/myPlant page/trimIcon.png");
-    background-repeat: no-repeat;
-    width: 31px;
-    height: 31px;
-    position: absolute;
-    top: 372px;
-    left: 94px;
-    display: none;
-}
-#trimText {
-    font-weight: normal;
-    font-size: 18px;
-    font-family: 'ABeeZee'!important;
-    color: #c3f3c0;
-    position: absolute;
-    top: 378px;
-    left: 145px;
-    display: none;
-}
-#trimCheckbox {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    top: 375px;
-    left: 358px;
-    display: none;
-}
-#fertilizeIcon {
-    background-image: url("../images/myPlant page/fertilizeIcon.png");
-    background-repeat: no-repeat;
-    width: 31px;
-    height: 31px;
-    position: absolute;
-    top: 432px;
-    left: 94px;
-    display: none;
-}
-#fertilizeText {
-    font-weight: normal;
-    font-size: 18px;
-    font-family: 'ABeeZee'!important;
-    color: #ffa9d1;
-    position: absolute;
-    top: 438px;
-    left: 145px;
-    display: none;
-}
-#fertilizeCheckbox {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    top: 435px;
-    left: 358px;
-    display: none;
-}
-#harvestIcon {
-    background-image: url("../images/myPlant page/harvestIcon.png");
-    background-repeat: no-repeat;
-    width: 31px;
-    height: 31px;
-    position: absolute;
-    top: 492px;
-    left: 94px;
-    display: none;
-}
-#harvestText {
-    font-weight: normal;
-    font-size: 18px;
-    font-family: 'ABeeZee'!important;
-    color: #ffcda9;
-    position: absolute;
-    top: 498px;
-    left: 145px;
-    display: none;
-}
-#harvestCheckbox {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    top: 495px;
-    left: 358px;
-    display: none;
-}
-#bannerBackground {
-    background-image: url("../images/myPlant page/bannerBackground.png");
-    background-repeat: no-repeat;
-    width: 480px;
-    height: 100px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    display: none;
-}
-#reminderEnableBanner {
-    background-image: url("../images/myPlant page/reminderEnableBanner.png");
-    background-repeat: no-repeat;
-    width: 480px;
-    height: 100px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    display: none;
-}
-#waterIconBIGGER {
-    background-image: url("../images/myPlant page/waterIconBIGGER.png");
-    background-repeat: no-repeat;
-    width: 54px;
-    height: 54px;
-    position: absolute;
-    top: 485px;
-    left: 60px;
-    display: none;
-}
-#onIcon {
-    background-image: url("../images/myPlant page/onIcon.png");
-    background-repeat: no-repeat;
-    width: 55px;
-    height: 55px;
-    position: absolute;
-    top: 485px;
-    left: 364px;
-    display: none;
-}
-#waterTimeText {
-    font-weight: normal;
-    font-size: 26px;
-    font-family: 'ABeeZee'!important;
-    color: #7a7a7a;
-    position: absolute;
-    top: 494px;
-    left: 267px;
-    display: none;
-}
-#waterHeadText {
-    font-weight: normal;
-    font-size: 24px;
-    font-family: 'ABeeZee'!important;
-    color: #444444;
-    position: absolute;
-    top: 485px;
-    left: 136px;
-    display: none;
-}
-#waterRepeatText {
-    font-weight: normal;
-    font-size: 14px;
-    font-family: 'ABeeZee'!important;
-    color: #929292;
-    position: absolute;
-    top: 515px;
-    left: 137px;
-    display: none;
+    /*myPlantsPage*/
+    body#myPlantsPage{
+        width: 480px;
+        height: 736px;
+    }
+    body#myPlantsPage header {
+        width: 480px;
+        height: 334px;
+    }
+    body#myPlantsPage main {
+        width: 480px;
+        height: 402px;
+    }
+    body#myPlantsPage .flowerCoverPic {
+        background-image: url("../images/Flowers page/Hibiscus.png");
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 334px;
+        position: absolute;
+    }
+    body#myPlantsPage .backArrow {
+        background-image: url("../images/General icons/backArrow.png");
+        background-repeat: no-repeat;
+        width: 73px;
+        height: 48px;
+        position: absolute;
+        top: 13px;
+        left: -6px;
+    }
+    body#myPlantsPage .separationLine {
+        background-image: url("../images/myPlant page/Vertical_Line.png");
+        background-repeat: no-repeat;
+        width: 1px;
+        height: 74px;
+        position: absolute;
+        top: 417px;
+        left: 240px;
+    }
+    body#myPlantsPage .plantsCoverText {
+        font-weight: normal;
+        font-size: 26px;
+        font-family: 'Abhaya Libre'!important;
+        color: white;
+        position: absolute;
+        top: 271px;
+        left: 18px;
+    }
+    body#myPlantsPage .plantsMainTextHeadline {
+        font-weight: normal;
+        font-size: 18px;
+        font-family: 'Abhaya Libre'!important;
+        color: #629c44;
+        position: absolute;
+    }
+    body#myPlantsPage .plantsMainTextInfo {
+        font-weight: normal;
+        font-size: 24px;
+        font-family: 'Abhaya Libre'!important;
+        color: #4d4c4c;
+        position: absolute;
+    }
+    body#myPlantsPage .plantsMainTextFamily {
+        top: 423px;
+        left: 97px;
+    }
+    body#myPlantsPage .plantsMainTextDuration {
+        top: 423px;
+        left: 330px;
+    }
+    body#myPlantsPage .plantsMainTextFamilyInfo {
+        top: 448px;
+        left: 72px;
+    }
+    body#myPlantsPage .plantsMainTextDurationInfo {
+        top: 448px;
+        left: 319px;
+    }
+    body#myPlantsPage .infoBoxesForPlant {
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 240px;
+        height: 110px;
+    }
+    body#myPlantsPage .waterInfo {
+        background-image: url("../images/Flowers page/waterInfo.png");
+        top: 516px;
+        left: 1px;
+    }
+    body#myPlantsPage .plantingInfo {
+        background-image: url("../images/Flowers page/plantingInfo.png");
+        top: 626px;
+        left: 1px;
+    }
+    body#myPlantsPage .spaceInfo {
+        background-image: url("../images/Flowers page/spaceInfo.png");
+        top: 516px;
+        left: 240px;
+    }
+    body#myPlantsPage .exposureInfo {
+        background-image: url("../images/Flowers page/exposureInfo.png");
+        top: 626px;
+        left: 240px;
+    }
+    body#myPlantsPage .infoBoxText {
+        font-weight: normal;
+        font-family: 'ABeeZee' !important;
+        position: absolute;
+    }
+    body#myPlantsPage .waterInfoHeadline {
+        font-size: 18px;
+        color: #008db1;
+        top: 529px;
+        left: 95px;
+    }
+    body#myPlantsPage .waterInfoContents {
+        font-size: 14px;
+        color: #008db1;
+        top: 597px;
+        left: 106px;
+    }
+    body#myPlantsPage .plantingInfoHeadline {
+        font-size: 18px;
+        color: #ffb92e;
+        top: 639px;
+        left: 85px;
+    }
+    body#myPlantsPage .plantingInfoContents {
+        font-size: 14px;
+        color: #ffb92e;
+        top: 711px;
+        left: 76px;
+    }
+    body#myPlantsPage .spaceInfoHeadline {
+        font-size: 18px;
+        color: #bed49f;
+        top: 529px;
+        left: 334px;
+    }
+    body#myPlantsPage .spaceInfoContents {
+        font-size: 14px;
+        color: #bed49f;
+        top: 596px;
+        left: 340px;
+    }
+    body#myPlantsPage .exposureInfoHeadline {
+        font-size: 18px;
+        color: #79478f;
+        top: 639px;
+        left: 319px;
+    }
+    body#myPlantsPage .exposureInfoContents {
+        font-size: 14px;
+        color: #79478f;
+        top: 711px;
+        left: 323px;
+    }
+    body#myPlantsPage #infoButton {
+        background-image: url("../images/myPlant page/plantInfoIcon - selected.png");
+        background-repeat: no-repeat;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 350px;
+        left: 105px;
+        border: none;
+        background-color: transparent;
+    }
+    body#myPlantsPage #notificationsButton {
+        background-image: url("../images/myPlant page/plantNotificationIcon.png");
+        background-repeat: no-repeat;
+        width: 27px;
+        height: 32px;
+        position: absolute;
+        top: 350px;
+        left: 347px;
+        border: none;
+        background-color: transparent;
+    }
+    body#myPlantsPage .horizontalLine {
+        background-image: url("../images/myPlant page/Horizontal_Line.png");
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 1px;
+        position: absolute;
+        top: 394px;
+        left: 0px;
+    }
+    body#myPlantsPage #chosenLine {
+        background-image: url("../images/myPlant page/chosenLine.png");
+        background-repeat: no-repeat;
+        width: 239px;
+        height: 6px;
+        position: absolute;
+        top: 391px;
+        left: -2px;
+    }
+    body#myPlantsPage #notificationsHeadText {
+        font-weight: normal;
+        font-size: 20px;
+        font-family: 'ABeeZee'!important;
+        color: #606060;
+        position: absolute;
+        top: 426px;
+        left: 180px;
+        display: none;
+    }
+    body#myPlantsPage #bellIcon {
+        background-image: url("../images/myPlant page/bellIcon.png");
+        background-repeat: no-repeat;
+        width: 41px;
+        height: 41px;
+        position: absolute;
+        top: 463px;
+        left: 219px;
+        display: none;
+    }
+    body#myPlantsPage #paragraphText {
+        font-weight: normal;
+        font-size: 12px;
+        font-family: 'ABeeZee'!important;
+        color: #7a7a7a;
+        position: absolute;
+        top: 513px;
+        left: 57px;
+        text-align: center;
+        display: none;
+        line-height: 1.3;
+    }
+    body#myPlantsPage #plusNotificationsButton {
+        background-image: url("../images/myPlant page/plusButton.png");
+        background-repeat: no-repeat;
+        width: 33px;
+        height: 33px;
+        position: absolute;
+        top: 594px;
+        left: 224px;
+        border: none;
+        background-color: transparent;
+        display: none;
+    }
+    body#myPlantsPage #orLine {
+        background-image: url("../images/myPlant page/or.png");
+        background-repeat: no-repeat;
+        width: 72px;
+        height: 15px;
+        position: absolute;
+        top: 637px;
+        left: 204px;
+        display: none;
+    }
+    body#myPlantsPage #useDefaultButton {
+        background-image: url("../images/myPlant page/useDefaultButton.png");
+        background-repeat: no-repeat;
+        width: 162px;
+        height: 34px;
+        position: absolute;
+        top: 670px;
+        left: 159px;
+        border: none;
+        background-color: transparent;
+        display: none;
+    }
+    body#myPlantsPage #hideRectangle {
+        background-image: url("../images/myPlant page/hideRectangle.png");
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 330px;
+        position: absolute;
+        top: 407px;
+        left: 0px;
+        display: none;
+    }
+    body#myPlantsPage #darkenBackground {
+        background-image: url("../images/myPlant page/darkenBackground.png");
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 736px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: none;
+    }
+    body#myPlantsPage #chooseKindBackground {
+        background-image: url("../images/myPlant page/chooseKindBackground.png");
+        background-repeat: no-repeat;
+        width: 351px;
+        height: 367px;
+        position: absolute;
+        top: 229px;
+        left: 64px;
+        display: none;
+    }
+    body#myPlantsPage #cancelButton {
+        background-image: url("../images/myPlant page/cancelIcon.png");
+        background-repeat: no-repeat;
+        width: 21px;
+        height: 20px;
+        position: absolute;
+        top: 241px;
+        left: 378px;
+        border: none;
+        background-color: transparent;
+        display: none;
+    }
+    body#myPlantsPage #okButton {
+        background-image: url("../images/myPlant page/okButton.png");
+        background-repeat: no-repeat;
+        width: 114px;
+        height: 25px;
+        position: absolute;
+        top: 555px;
+        left: 183px;
+        border: none;
+        background-color: transparent;
+        text-indent: 100px;
+        display: none;
+    }
+    body#myPlantsPage #chooseKindText {
+        font-weight: normal;
+        font-size: 18px;
+        font-family: 'ABeeZee'!important;
+        color: #444444;
+        position: absolute;
+        top: 262px;
+        left: 188px;
+        display: none;
+    }
+    body#myPlantsPage #waterIcon {
+        background-image: url("../images/myPlant page/waterIcon.png");
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        top: 312px;
+        left: 94px;
+        display: none;
+    }
+    body#myPlantsPage #waterText {
+        font-weight: normal;
+        font-size: 18px;
+        font-family: 'ABeeZee'!important;
+        color: #a9d4ff;
+        position: absolute;
+        top: 317px;
+        left: 145px;
+        display: none;
+    }
+    body#myPlantsPage #waterCheckbox {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 314px;
+        left: 358px;
+        display: none;
+    }
+    body#myPlantsPage #trimIcon {
+        background-image: url("../images/myPlant page/trimIcon.png");
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        top: 372px;
+        left: 94px;
+        display: none;
+    }
+    body#myPlantsPage #trimText {
+        font-weight: normal;
+        font-size: 18px;
+        font-family: 'ABeeZee'!important;
+        color: #c3f3c0;
+        position: absolute;
+        top: 378px;
+        left: 145px;
+        display: none;
+    }
+    body#myPlantsPage #trimCheckbox {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 375px;
+        left: 358px;
+        display: none;
+    }
+    body#myPlantsPage #fertilizeIcon {
+        background-image: url("../images/myPlant page/fertilizeIcon.png");
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        top: 432px;
+        left: 94px;
+        display: none;
+    }
+    body#myPlantsPage #fertilizeText {
+        font-weight: normal;
+        font-size: 18px;
+        font-family: 'ABeeZee'!important;
+        color: #ffa9d1;
+        position: absolute;
+        top: 438px;
+        left: 145px;
+        display: none;
+    }
+    body#myPlantsPage #fertilizeCheckbox {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 435px;
+        left: 358px;
+        display: none;
+    }
+    body#myPlantsPage #harvestIcon {
+        background-image: url("../images/myPlant page/harvestIcon.png");
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        top: 492px;
+        left: 94px;
+        display: none;
+    }
+    body#myPlantsPage #harvestText {
+        font-weight: normal;
+        font-size: 18px;
+        font-family: 'ABeeZee'!important;
+        color: #ffcda9;
+        position: absolute;
+        top: 498px;
+        left: 145px;
+        display: none;
+    }
+    body#myPlantsPage #harvestCheckbox {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 495px;
+        left: 358px;
+        display: none;
+    }
+    body#myPlantsPage #bannerBackground {
+        background-image: url("../images/myPlant page/bannerBackground.png");
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 100px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: none;
+    }
+    body#myPlantsPage #reminderEnableBanner {
+        background-image: url("../images/myPlant page/reminderEnableBanner.png");
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 100px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: none;
+    }
+    body#myPlantsPage #waterIconBIGGER {
+        background-image: url("../images/myPlant page/waterIconBIGGER.png");
+        background-repeat: no-repeat;
+        width: 54px;
+        height: 54px;
+        position: absolute;
+        top: 485px;
+        left: 60px;
+        display: none;
+    }
+    body#myPlantsPage #onIcon {
+        background-image: url("../images/myPlant page/onIcon.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        position: absolute;
+        top: 485px;
+        left: 364px;
+        display: none;
+    }
+    body#myPlantsPage #waterTimeText {
+        font-weight: normal;
+        font-size: 26px;
+        font-family: 'ABeeZee'!important;
+        color: #7a7a7a;
+        position: absolute;
+        top: 494px;
+        left: 267px;
+        display: none;
+    }
+    body#myPlantsPage #waterHeadText {
+        font-weight: normal;
+        font-size: 24px;
+        font-family: 'ABeeZee'!important;
+        color: #444444;
+        position: absolute;
+        top: 485px;
+        left: 136px;
+        display: none;
+    }
+    body#myPlantsPage #waterRepeatText {
+        font-weight: normal;
+        font-size: 14px;
+        font-family: 'ABeeZee'!important;
+        color: #929292;
+        position: absolute;
+        top: 515px;
+        left: 137px;
+        display: none;
+    }
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /*Tablet*/
 /* and (max-width: 768px)  */
-@media screen and (min-width: 495px){
+@media screen and (min-width: 485px){
     body#AgamsGarden{
         width: 768px;
         height: 736px;
@@ -1330,21 +1326,21 @@ body#myPlantsPage nav {
         left: 0px;
         top: 334px;
     }
-    body#Hibiscus footer {
+    body#Hibiscus nav {
         width: 768px;
         height: 220px;
         position: absolute;
         left: 0px;
         top: 516px;
     }
-    .flowerCoverPic {
+    body#Hibiscus .flowerCoverPic {
         background-image: url("../images/Tablet/Flowers page/Hibiscus.png");
         background-repeat: no-repeat;
         width: 768px;
         height: 334px;
         position: absolute;
     }
-    .backArrow {
+    body#Hibiscus .backArrow {
         background-image: url("../images/General icons/backArrow.png");
         background-repeat: no-repeat;
         width: 73px;
@@ -1353,7 +1349,7 @@ body#myPlantsPage nav {
         top: 13px;
         left: -6px;
     }
-    .addToGardenButton {
+    body#Hibiscus .addToGardenButton {
         background-image: url("../images/Flowers page/addFlowerButton.png");
         background-repeat: no-repeat;
         width: 221px;
@@ -1364,7 +1360,7 @@ body#myPlantsPage nav {
         border: none;
         background-color: transparent;
     }
-    .separationLine {
+    body#Hibiscus .separationLine {
         background-image: url("../images/Flowers page/separationLine.png");
         background-repeat: no-repeat;
         width: 1px;
@@ -1373,7 +1369,7 @@ body#myPlantsPage nav {
         top: 58px;
         left: 384px;
     }
-    .plantsCoverText {
+    body#Hibiscus .plantsCoverText {
         font-weight: normal;
         font-size: 26px;
         font-family: 'Abhaya Libre'!important;
@@ -1382,110 +1378,110 @@ body#myPlantsPage nav {
         top: 271px;
         left: 18px;
     }
-    .plantsMainTextHeadline {
+    body#Hibiscus .plantsMainTextHeadline {
         font-weight: normal;
         font-size: 18px;
         font-family: 'Abhaya Libre'!important;
         color: #629c44;
         position: absolute;
     }
-    .plantsMainTextInfo {
+    body#Hibiscus .plantsMainTextInfo {
         font-weight: normal;
         font-size: 24px;
         font-family: 'Abhaya Libre'!important;
         color: #4d4c4c;
         position: absolute;
     }
-    .plantsMainTextFamily {
+    body#Hibiscus .plantsMainTextFamily {
         top: 66px;
         left: 243px;
     }
-    .plantsMainTextDuration {
+    body#Hibiscus .plantsMainTextDuration {
         top: 66px;
         left: 472px;
     }
-    .plantsMainTextFamilyInfo {
+    body#Hibiscus .plantsMainTextFamilyInfo {
         top: 100px;
         left: 221px;
     }
-    .plantsMainTextDurationInfo {
+    body#Hibiscus .plantsMainTextDurationInfo {
         top: 100px;
         left: 458px;
     }
-    .infoBoxesForPlant {
+    body#Hibiscus .infoBoxesForPlant {
         background-repeat: no-repeat;
         position: absolute;
         width: 384px;
         height: 110px;
     }
-    .waterInfo {
+    body#Hibiscus .waterInfo {
         background-image: url("../images/Tablet/Flowers page/waterInfo.png");
         top: 0px;
         left: 1px;
     }
-    .plantingInfo {
+    body#Hibiscus .plantingInfo {
         background-image: url("../images/Tablet/Flowers page/plantingInfo.png");
         top: 110px;
         left: 1px;
     }
-    .spaceInfo {
+    body#Hibiscus .spaceInfo {
         background-image: url("../images/Tablet/Flowers page/spaceInfo.png");
         top: 0px;
         left: 384px;
     }
-    .exposureInfo {
+    body#Hibiscus .exposureInfo {
         background-image: url("../images/Tablet/Flowers page/exposureInfo.png");
         top: 110px;
         left: 384px;
     }
-    .infoBoxText {
+    body#Hibiscus .infoBoxText {
         font-weight: normal;
         font-family: 'ABeeZee' !important;
         position: absolute;
     }
-    .waterInfoHeadline {
+    body#Hibiscus .waterInfoHeadline {
         font-size: 18px;
         color: #008db1;
         margin-top: 17px;
         left: 167px;
     }
-    .waterInfoContents {
+    body#Hibiscus .waterInfoContents {
         font-size: 14px;
         color: #008db1;
         margin-top: 84px;
         left: 178px;
     }
-    .plantingInfoHeadline {
+    body#Hibiscus .plantingInfoHeadline {
         font-size: 18px;
         color: #ffb92e;
         margin-top: 126px;
         left: 160px;
     }
-    .plantingInfoContents {
+    body#Hibiscus .plantingInfoContents {
         font-size: 14px;
         color: #ffb92e;
         margin-top: 198px;
         left: 152px;
     }
-    .spaceInfoHeadline {
+    body#Hibiscus .spaceInfoHeadline {
         font-size: 18px;
         color: #bed49f;
         margin-top: 17px;
         left: 549px;
     }
-    .spaceInfoContents {
+    body#Hibiscus .spaceInfoContents {
         font-size: 14px;
         color: #bed49f;
         margin-top: 84px;
         left: 555px;
     }
-    .exposureInfoHeadline {
+    body#Hibiscus .exposureInfoHeadline {
         font-size: 18px;
         color: #79478f;
         margin-top: 126px;
         left: 540px;
     }
-    .exposureInfoContents {
+    body#Hibiscus .exposureInfoContents {
         font-size: 14px;
         color: #79478f;
         margin-top: 198px;
@@ -1524,7 +1520,7 @@ body#myPlantsPage nav {
         left: 744px;
         top: 73px;
     }
-    body#searchByCategory footer {
+    body#searchByCategory nav {
         width: 768px;
         height: 67px;
         background-image: url("../images/Tablet/General icons/footerBackground.png");
@@ -1581,7 +1577,7 @@ body#myPlantsPage nav {
         top: 30px;
         left: 211px;
     }
-    .deleteIcon {
+    #deleteIcon {
         background-image: url("../images/Search page/deleteIcon.png");
         background-repeat: no-repeat;
         width: 17px;
@@ -1796,5 +1792,522 @@ body#myPlantsPage nav {
         position: relative;
         top: 155px;
         left: 65px;
+    }
+
+    myPlantsPage
+    body#myPlantsPage{
+        width: 768px;
+        height: 736px;
+    }
+    body#myPlantsPage header {
+        width: 768px;
+        height: 334px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    body#myPlantsPage main {
+        width: 768px;
+        height: 402px;
+        position: absolute;
+        left: 0px;
+        top: 334px;
+    }
+    body#myPlantsPage .flowerCoverPic {
+        background-image: url("../images/Tablet/Flowers page/Hibiscus.png");
+        background-repeat: no-repeat;
+        width: 768px;
+        height: 334px;
+        position: absolute;
+    }
+    body#myPlantsPage .backArrow {
+        background-image: url("../images/General icons/backArrow.png");
+        background-repeat: no-repeat;
+        width: 73px;
+        height: 48px;
+        position: absolute;
+        top: 13px;
+        left: -6px;
+    }
+
+    body#myPlantsPage .separationLine {
+        background-image: url("../images/myPlant page/Vertical_Line.png");
+        background-repeat: no-repeat;
+        width: 1px;
+        height: 74px;
+        position: absolute;
+        top: 83px;
+        left: 384px;
+    }
+    body#myPlantsPage .plantsCoverText {
+        font-weight: normal;
+        font-size: 26px;
+        font-family: 'Abhaya Libre'!important;
+        color: white;
+        position: absolute;
+        top: 271px;
+        left: 18px;
+    }
+    body#myPlantsPage .plantsMainTextHeadline {
+        font-weight: normal;
+        font-size: 18px;
+        font-family: 'Abhaya Libre'!important;
+        color: #629c44;
+        position: absolute;
+    }
+    body#myPlantsPage .plantsMainTextInfo {
+        font-weight: normal;
+        font-size: 24px;
+        font-family: 'Abhaya Libre'!important;
+        color: #4d4c4c;
+        position: absolute;
+    }
+    body#myPlantsPage .plantsMainTextFamily {
+        top: 93px;
+        left: 243px;
+    }
+    body#myPlantsPage .plantsMainTextDuration {
+        top: 93px;
+        left: 472px;
+    }
+    body#myPlantsPage .plantsMainTextFamilyInfo {
+        top: 120px;
+        left: 221px;
+    }
+    body#myPlantsPage .plantsMainTextDurationInfo {
+        top: 120px;
+        left: 458px;
+    }
+    body#myPlantsPage .infoBoxesForPlant {
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 384px;
+        height: 110px;
+    }
+    body#myPlantsPage .waterInfo {
+        background-image: url("../images/Tablet/Flowers page/waterInfo.png");
+        bottom: 110px;
+        left: 1px;
+    }
+    body#myPlantsPage .plantingInfo {
+        background-image: url("../images/Tablet/Flowers page/plantingInfo.png");
+        bottom: 0px;
+        left: 1px;
+    }
+    body#myPlantsPage .spaceInfo {
+        background-image: url("../images/Tablet/Flowers page/spaceInfo.png");
+        bottom: 110px;
+        left: 384px;
+    }
+    body#myPlantsPage .exposureInfo {
+        background-image: url("../images/Tablet/Flowers page/exposureInfo.png");
+        bottom: 0px;
+        left: 384px;
+    }
+    body#myPlantsPage .infoBoxText {
+        font-weight: normal;
+        font-family: 'ABeeZee' !important;
+        position: absolute;
+    }
+    body#myPlantsPage .waterInfoHeadline {
+        font-size: 18px;
+        color: #008db1;
+        top: 199px;
+        left: 167px;
+    }
+    body#myPlantsPage .waterInfoContents {
+        font-size: 14px;
+        color: #008db1;
+        top: 266px;
+        left: 178px;
+    }
+    body#myPlantsPage .plantingInfoHeadline {
+        font-size: 18px;
+        color: #ffb92e;
+        top: 308px;
+        left: 160px;
+    }
+    body#myPlantsPage .plantingInfoContents {
+        font-size: 14px;
+        color: #ffb92e;
+        top: 380px;
+        left: 152px;
+    }
+    body#myPlantsPage .spaceInfoHeadline {
+        font-size: 18px;
+        color: #bed49f;
+        top: 199px;
+        left: 549px;
+    }
+    body#myPlantsPage .spaceInfoContents {
+        font-size: 14px;
+        color: #bed49f;
+        top: 266px;
+        left: 555px;
+    }
+    body#myPlantsPage .exposureInfoHeadline {
+        font-size: 18px;
+        color: #79478f;
+        top: 308px;
+        left: 540px;
+    }
+    body#myPlantsPage .exposureInfoContents {
+        font-size: 14px;
+        color: #79478f;
+        top: 380px;
+        left: 540px;
+    }
+    body#myPlantsPage #infoButton {
+        background-image: url("../images/myPlant page/plantInfoIcon - selected.png");
+        background-repeat: no-repeat;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 16px;
+        left: 248px;
+        border: none;
+        background-color: transparent;
+    }
+    body#myPlantsPage #notificationsButton {
+        background-image: url("../images/myPlant page/plantNotificationIcon.png");
+        background-repeat: no-repeat;
+        width: 27px;
+        height: 32px;
+        position: absolute;
+        top: 16px;
+        left: 491px;
+        border: none;
+        background-color: transparent;
+    }
+    body#myPlantsPage .horizontalLine {
+        background-image: url("../images/Tablet/myPlant page/Horizontal_LineTablet.png");
+        background-repeat: no-repeat;
+        width: 768px;
+        height: 1px;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+    }
+    body#myPlantsPage #chosenLine {
+        background-image: url("../images/Tablet/myPlant page/chosenLineTablet.png");
+        background-repeat: no-repeat;
+        width: 392px;
+        height: 6px;
+        position: absolute;
+        top: 60px;
+        left: -4px;
+    }
+    body#myPlantsPage #notificationsHeadText {
+        font-weight: normal;
+        font-size: 20px;
+        font-family: 'ABeeZee'!important;
+        color: #606060;
+        position: absolute;
+        top: 92px;
+        left: 323px;
+        display: none;
+    }
+    body#myPlantsPage #bellIcon {
+        background-image: url("../images/myPlant page/bellIcon.png");
+        background-repeat: no-repeat;
+        width: 41px;
+        height: 41px;
+        position: absolute;
+        top: 129px;
+        left: 362px;
+        display: none;
+    }
+    body#myPlantsPage #paragraphText {
+        font-weight: normal;
+        font-size: 12px;
+        font-family: 'ABeeZee'!important;
+        color: #7a7a7a;
+        position: absolute;
+        top: 179px;
+        left: 200px;
+        text-align: center;
+        display: none;
+        line-height: 1.3;
+    }
+    body#myPlantsPage #plusNotificationsButton {
+        background-image: url("../images/myPlant page/plusButton.png");
+        background-repeat: no-repeat;
+        width: 33px;
+        height: 33px;
+        position: absolute;
+        top: 260px;
+        left: 367px;
+        border: none;
+        background-color: transparent;
+        display: none;
+    }
+    body#myPlantsPage #orLine {
+        background-image: url("../images/myPlant page/or.png");
+        background-repeat: no-repeat;
+        width: 72px;
+        height: 15px;
+        position: absolute;
+        top: 303px;
+        left: 347px;
+        display: none;
+    }
+    body#myPlantsPage #useDefaultButton {
+        background-image: url("../images/myPlant page/useDefaultButton.png");
+        background-repeat: no-repeat;
+        width: 162px;
+        height: 34px;
+        position: absolute;
+        top: 336px;
+        left: 302px;
+        border: none;
+        background-color: transparent;
+        display: none;
+    }
+    body#myPlantsPage #hideRectangle {
+        background-image: url("../images/Tablet/myPlant page/hideRectangleTablet.png");
+        background-repeat: no-repeat;
+        width: 768px;
+        height: 330px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        display: none;
+    }
+    body#myPlantsPage #darkenBackground {
+        background-image: url("../images/Tablet/myPlant page/darkenBackground.png");
+        background-repeat: no-repeat;
+        width: 768px;
+        height: 736px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: none;
+    }
+    body#myPlantsPage #chooseKindBackground {
+        background-image: url("../images/myPlant page/chooseKindBackground.png");
+        background-repeat: no-repeat;
+        width: 351px;
+        height: 367px;
+        position: absolute;
+        top: -105px;
+        left: 207px;
+        display: none;
+    }
+    body#myPlantsPage #cancelButton {
+        background-image: url("../images/myPlant page/cancelIcon.png");
+        background-repeat: no-repeat;
+        width: 21px;
+        height: 20px;
+        position: absolute;
+        top: -93px;
+        left: 521px;
+        border: none;
+        background-color: transparent;
+        display: none;
+    }
+    body#myPlantsPage #okButton {
+        background-image: url("../images/myPlant page/okButton.png");
+        background-repeat: no-repeat;
+        width: 114px;
+        height: 25px;
+        position: absolute;
+        top: 221px;
+        left: 326px;
+        border: none;
+        background-color: transparent;
+        text-indent: 100px;
+        display: none;
+    }
+    body#myPlantsPage #chooseKindText {
+        font-weight: normal;
+        font-size: 18px;
+        font-family: 'ABeeZee'!important;
+        color: #444444;
+        position: absolute;
+        top: -72px;
+        left: 331px;
+        display: none;
+    }
+    body#myPlantsPage #waterIcon {
+        background-image: url("../images/myPlant page/waterIcon.png");
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        top: -22px;
+        left: 237px;
+        display: none;
+    }
+    body#myPlantsPage #waterText {
+        font-weight: normal;
+        font-size: 18px;
+        font-family: 'ABeeZee'!important;
+        color: #a9d4ff;
+        position: absolute;
+        top: -17px;
+        left: 288px;
+        display: none;
+    }
+    body#myPlantsPage #waterCheckbox {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: -20px;
+        left: 501px;
+        display: none;
+    }
+    body#myPlantsPage #trimIcon {
+        background-image: url("../images/myPlant page/trimIcon.png");
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        top: 38px;
+        left: 237px;
+        display: none;
+    }
+    body#myPlantsPage #trimText {
+        font-weight: normal;
+        font-size: 18px;
+        font-family: 'ABeeZee'!important;
+        color: #c3f3c0;
+        position: absolute;
+        top: 44px;
+        left: 288px;
+        display: none;
+    }
+    body#myPlantsPage #trimCheckbox {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 41px;
+        left: 501px;
+        display: none;
+    }
+    body#myPlantsPage #fertilizeIcon {
+        background-image: url("../images/myPlant page/fertilizeIcon.png");
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        top: 98px;
+        left: 237px;
+        display: none;
+    }
+    body#myPlantsPage #fertilizeText {
+        font-weight: normal;
+        font-size: 18px;
+        font-family: 'ABeeZee'!important;
+        color: #ffa9d1;
+        position: absolute;
+        top: 104px;
+        left: 288px;
+        display: none;
+    }
+    body#myPlantsPage #fertilizeCheckbox {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 101px;
+        left: 501px;
+        display: none;
+    }
+    body#myPlantsPage #harvestIcon {
+        background-image: url("../images/myPlant page/harvestIcon.png");
+        background-repeat: no-repeat;
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        top: 158px;
+        left: 237px;
+        display: none;
+    }
+    body#myPlantsPage #harvestText {
+        font-weight: normal;
+        font-size: 18px;
+        font-family: 'ABeeZee'!important;
+        color: #ffcda9;
+        position: absolute;
+        top: 164px;
+        left: 288px;
+        display: none;
+    }
+    body#myPlantsPage #harvestCheckbox {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 161px;
+        left: 501px;
+        display: none;
+    }
+    body#myPlantsPage #bannerBackground {
+        background-image: url("../images/Tablet/myPlant page/bannerBackground.png");
+        background-repeat: no-repeat;
+        width: 768px;
+        height: 100px;
+        position: absolute;
+        top: -334px;
+        left: 0px;
+        display: none;
+    }
+    body#myPlantsPage #reminderEnableBanner {
+        background-image: url("../images/Tablet/myPlant page/reminderEnableBanner.png");
+        background-repeat: no-repeat;
+        width: 768px;
+        height: 100px;
+        position: absolute;
+        top: -334px;
+        left: 0px;
+        display: none;
+    }
+    body#myPlantsPage #waterIconBIGGER {
+        background-image: url("../images/myPlant page/waterIconBIGGER.png");
+        background-repeat: no-repeat;
+        width: 54px;
+        height: 54px;
+        position: absolute;
+        top: 151px;
+        left: 180px;
+        display: none;
+    }
+    body#myPlantsPage #onIcon {
+        background-image: url("../images/myPlant page/onIcon.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        position: absolute;
+        top: 151px;
+        left: 530px;
+        display: none;
+    }
+    body#myPlantsPage #waterTimeText {
+        font-weight: normal;
+        font-size: 26px;
+        font-family: 'ABeeZee'!important;
+        color: #7a7a7a;
+        position: absolute;
+        top: 160px;
+        left: 430px;
+        display: none;
+    }
+    body#myPlantsPage #waterHeadText {
+        font-weight: normal;
+        font-size: 24px;
+        font-family: 'ABeeZee'!important;
+        color: #444444;
+        position: absolute;
+        top: 151px;
+        left: 259px;
+        display: none;
+    }
+    body#myPlantsPage #waterRepeatText {
+        font-weight: normal;
+        font-size: 14px;
+        font-family: 'ABeeZee'!important;
+        color: #929292;
+        position: absolute;
+        top: 181px;
+        left: 260px;
+        display: none;
     }
 }

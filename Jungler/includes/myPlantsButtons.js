@@ -4,20 +4,50 @@ document.getElementById("useDefaultButton").onclick = function() { showDefaultNo
 document.getElementById("cancelButton").onclick = function() { hide() };
 document.getElementById("okButton").onclick = function() { approveAction() };
 
+var bool_approveAction = 0;
+var bool_notificationsButton = 0;
+var bool_infoButton = 1;
+
 function showNotificationsPage() {
+    bool_notificationsButton = 1;
+    bool_infoButton = 0;
+
     document.getElementById("hideRectangle").style.display = "initial";
     document.getElementById("infoButton").style.backgroundImage = "url('images/myPlant page/plantInfoIcon.png')";
     document.getElementById("notificationsButton").style.backgroundImage = "url('images/myPlant page/plantNotificationIcon - selected.png')";
-    document.getElementById("chosenLine").style.left = "241px";
+    if(window.innerWidth < 485)
+    {
+        document.getElementById("chosenLine").style.left = "241px";
+    }
+    if(window.innerWidth >= 485)
+    {
+        document.getElementById("chosenLine").style.left = "384px";
+    }
     document.getElementById("notificationsHeadText").style.display = "initial";
-    document.getElementById("bellIcon").style.display = "initial";
-    document.getElementById("paragraphText").style.display = "initial";
     document.getElementById("plusNotificationsButton").style.display = "initial";
-    document.getElementById("orLine").style.display = "initial";
-    document.getElementById("useDefaultButton").style.display = "initial";
+
+    if(bool_approveAction == 0)
+    {
+        document.getElementById("bellIcon").style.display = "initial";
+        document.getElementById("paragraphText").style.display = "initial";
+        document.getElementById("orLine").style.display = "initial";
+        document.getElementById("useDefaultButton").style.display = "initial";
+    }
+
+    if(bool_approveAction == 1)
+    {
+        document.getElementById("waterIconBIGGER").style.display = "initial";
+        document.getElementById("onIcon").style.display = "initial";
+        document.getElementById("waterTimeText").style.display = "initial";
+        document.getElementById("waterHeadText").style.display = "initial"
+        document.getElementById("waterRepeatText").style.display = "initial";
+    }
 }
 
 function showInfoPage() {
+    bool_notificationsButton = 0;
+    bool_infoButton = 1;
+
     document.getElementById("hideRectangle").style.display = "none";
     document.getElementById("infoButton").style.backgroundImage = "url('images/myPlant page/plantInfoIcon - selected.png')";
     document.getElementById("notificationsButton").style.backgroundImage = "url('images/myPlant page/plantNotificationIcon.png')";
@@ -28,6 +58,15 @@ function showInfoPage() {
     document.getElementById("plusNotificationsButton").style.display = "none";
     document.getElementById("orLine").style.display = "none";
     document.getElementById("useDefaultButton").style.display = "none";
+
+    if(bool_approveAction == 1)
+    {
+        document.getElementById("waterIconBIGGER").style.display = "none";
+        document.getElementById("onIcon").style.display = "none";
+        document.getElementById("waterTimeText").style.display = "none";
+        document.getElementById("waterHeadText").style.display = "none"
+        document.getElementById("waterRepeatText").style.display = "none";
+    }
 }
 
 function showDefaultNotifications() {
@@ -80,6 +119,7 @@ function hide() {
 
 function approveAction() {
     hide();
+    bool_approveAction = 1;
 
     var waterCheckbox = document.getElementById("waterCheckbox");
     var trimCheckbox = document.getElementById("trimCheckbox");
@@ -94,7 +134,6 @@ function approveAction() {
         document.getElementById("paragraphText").style.display = "none";
         document.getElementById("orLine").style.display = "none";
         document.getElementById("useDefaultButton").style.display = "none";
-        document.getElementById("plusNotificationsButton").style.top = "670px";
     }
 
     if(waterCheckbox.checked)
@@ -106,6 +145,16 @@ function approveAction() {
         document.getElementById("waterHeadText").style.display = "initial"
         document.getElementById("waterRepeatText").style.display = "initial";
     }
+
+    if(window.innerWidth < 485)
+    {
+        document.getElementById("plusNotificationsButton").style.top = "670px";
+    }
+    if(window.innerWidth >= 485)
+    {
+        document.getElementById("plusNotificationsButton").style.top = "336px";
+    }
+
     if(trimCheckbox.checked)
     {
         console.log(trimCheckbox.value)
@@ -120,4 +169,51 @@ function approveAction() {
     }
 
     // document.getElementById("notificationsForm").submit();
+}
+
+window.onresize = function () {
+    if(window.innerWidth < 485)
+    {
+        document.getElementById("chosenLine").style.width = "239px";
+
+        if(bool_approveAction == 0)
+        {
+            document.getElementById("plusNotificationsButton").style.top = "594px";
+        }
+        if(bool_approveAction == 1)
+        {
+            document.getElementById("plusNotificationsButton").style.top = "670px";
+        }
+
+        if(bool_notificationsButton == 0)
+        {
+            document.getElementById("chosenLine").style.left = "-4px";
+        }
+        if(bool_notificationsButton == 1)
+        {
+            document.getElementById("chosenLine").style.left = "241px";
+        }
+    }
+    if(window.innerWidth >= 485)
+    {
+        document.getElementById("chosenLine").style.width = "392px";
+
+        if(bool_approveAction == 0)
+        {
+            document.getElementById("plusNotificationsButton").style.top = "260px";
+        }
+        if(bool_approveAction == 1)
+        {
+            document.getElementById("plusNotificationsButton").style.top = "336px";
+        }
+
+        if(bool_notificationsButton == 0)
+        {
+            document.getElementById("chosenLine").style.left = "-4px";
+        }
+        if(bool_notificationsButton == 1)
+        {
+            document.getElementById("chosenLine").style.left = "384px";
+        }
+    }
 }

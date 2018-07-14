@@ -1,3 +1,5 @@
+document.getElementById("deleteIcon").onclick = function() { document.getElementById('myInput').value = ''};
+
 var bool = 0;
 
   $("#myInput").click(function(){
@@ -33,6 +35,3 @@ var bool = 0;
 
 
 });
-
-// $("#addFlower").click(function(){
-// });
