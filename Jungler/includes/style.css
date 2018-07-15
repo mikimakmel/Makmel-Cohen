@@ -152,13 +152,13 @@ header, nav, main, section, aside, footer { display: block; }
         top: 195px;
         left: 343px;
     }
-    .flowerAddedBanner {
+    body#AgamsGarden #flowerAddedBanner {
         background-image: url("../images/General icons/flowerAddedBanner.png");
         background-repeat: no-repeat;
         width: 480px;
         height: 100px;
         position: absolute;
-        visibility: hidden;
+        display: none;
     }
     .gardenNameText {
         font-weight: normal;
@@ -1101,8 +1101,7 @@ header, nav, main, section, aside, footer { display: block; }
         left: 0px;
         display: none;
     }
-    body#myPlantsPage #waterIconBIGGER {
-        background-image: url("../images/myPlant page/waterIconBIGGER.png");
+    body#myPlantsPage #biggerIcon {
         background-repeat: no-repeat;
         width: 54px;
         height: 54px;
@@ -1121,7 +1120,7 @@ header, nav, main, section, aside, footer { display: block; }
         left: 364px;
         display: none;
     }
-    body#myPlantsPage #waterTimeText {
+    body#myPlantsPage #timeText {
         font-weight: normal;
         font-size: 26px;
         font-family: 'ABeeZee'!important;
@@ -1131,7 +1130,7 @@ header, nav, main, section, aside, footer { display: block; }
         left: 267px;
         display: none;
     }
-    body#myPlantsPage #waterHeadText {
+    body#myPlantsPage #typeText {
         font-weight: normal;
         font-size: 24px;
         font-family: 'ABeeZee'!important;
@@ -1141,7 +1140,7 @@ header, nav, main, section, aside, footer { display: block; }
         left: 136px;
         display: none;
     }
-    body#myPlantsPage #waterRepeatText {
+    body#myPlantsPage #repetitionText {
         font-weight: normal;
         font-size: 14px;
         font-family: 'ABeeZee'!important;

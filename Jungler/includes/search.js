@@ -30,10 +30,4 @@ document.getElementById("deleteIcon").onclick = function() { document.getElement
   }
 );
 
-// $(document).ready(function(){
-//   $.getJSON("includes/flowers.json", function (data) {
-
-//     console.log(data);
-//   });
-// });
 

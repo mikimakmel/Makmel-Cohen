@@ -1,3 +1,5 @@
+bannerBool = 0;
+
 $(function() {
     $("#flowerToAdd").submit(function() {
         var flower = "Hibiscus";
@@ -17,7 +19,17 @@ $(function() {
                 $("#loader").after(html);
                 $("#loader").hide();
                 console.log(html)
+
+                 // $("#flowerAddedBanner").show();
+                 bannerBool = 1;
              }  
         });
     });
 });
+
+document.getElementById("theButton").onclick = function() {
+    if(bannerBool == 1)
+    {
+        document.getElementById("flowerAddedBanner").style.display = "initial";
+    }
+};

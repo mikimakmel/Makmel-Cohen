@@ -19,6 +19,7 @@
         <div class="headerBar"></div>
         <a href="#" class="hamburger"></a>
         <a href="#" class="options"></a>
+        <div id="flowerAddedBanner"></div>
     </header>
 
     <main>
@@ -37,7 +38,7 @@
 
                 echo '<ul class="list">';
                 while($row = mysqli_fetch_assoc($result)){
-                     echo '<li><img class="image" src="images/FlowersPng/' . $row["flower"] . '.png">';
+                     echo '<a href="myPlantPage.html"><li><img class="image" src="images/FlowersPng/' . $row["flower"] . '.png"></a>';
                      echo '<span class="name listFont">' . $row["flower"] . '</span>';
                      echo '<img class="notificationImg notificationImgRight" src="images/Agams garden/trim.png">';
                      echo '<img class="notificationImg" src="images/Agams garden/water.png">';
