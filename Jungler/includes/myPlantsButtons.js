@@ -8,6 +8,35 @@ var bool_approveAction = 0;
 var bool_notificationsButton = 0;
 var bool_infoButton = 1;
 
+var myJSON = {
+    "defaultNotifications": [
+        {
+            "name": "Water",
+            "repeat": "Every day",
+            "hour": "19:00",
+            "img": "url('images/myPlant page/waterIconBIGGER.png')"
+        },
+        {
+            "name": "Trim",
+            "repeat": "Every day",
+            "hour": "11:00",
+            "img": "url('images/myPlant page/trimIconBIGGER.png')"
+        },
+        {
+            "name": "Fertilize",
+            "repeat": "Every day",
+            "hour": "13:00",
+            "img": "url('images/myPlant page/fertilizeIconBIGGER.png')"
+        },
+        {
+            "name": "Harvest",
+            "repeat": "Every day",
+            "hour": "07:00",
+            "img": "url('images/myPlant page/harvestIconBIGGER.png')"
+        }
+    ]
+}
+
 function showNotificationsPage() {
     bool_notificationsButton = 1;
     bool_infoButton = 0;
@@ -36,11 +65,11 @@ function showNotificationsPage() {
 
     if(bool_approveAction == 1)
     {
-        document.getElementById("waterIconBIGGER").style.display = "initial";
+        document.getElementById("biggerIcon").style.display = "initial";
         document.getElementById("onIcon").style.display = "initial";
-        document.getElementById("waterTimeText").style.display = "initial";
-        document.getElementById("waterHeadText").style.display = "initial"
-        document.getElementById("waterRepeatText").style.display = "initial";
+        document.getElementById("timeText").style.display = "initial";
+        document.getElementById("typeText").style.display = "initial"
+        document.getElementById("repetitionText").style.display = "initial";
     }
 }
 
@@ -61,11 +90,11 @@ function showInfoPage() {
 
     if(bool_approveAction == 1)
     {
-        document.getElementById("waterIconBIGGER").style.display = "none";
+        document.getElementById("biggerIcon").style.display = "none";
         document.getElementById("onIcon").style.display = "none";
-        document.getElementById("waterTimeText").style.display = "none";
-        document.getElementById("waterHeadText").style.display = "none"
-        document.getElementById("waterRepeatText").style.display = "none";
+        document.getElementById("timeText").style.display = "none";
+        document.getElementById("typeText").style.display = "none"
+        document.getElementById("repetitionText").style.display = "none";
     }
 }
 
@@ -139,11 +168,58 @@ function approveAction() {
     if(waterCheckbox.checked)
     {
         console.log(waterCheckbox.value)
-        document.getElementById("waterIconBIGGER").style.display = "initial";
+        document.getElementById("biggerIcon").style.display = "initial";
         document.getElementById("onIcon").style.display = "initial";
-        document.getElementById("waterTimeText").style.display = "initial";
-        document.getElementById("waterHeadText").style.display = "initial"
-        document.getElementById("waterRepeatText").style.display = "initial";
+        document.getElementById("timeText").style.display = "initial";
+        document.getElementById("typeText").style.display = "initial"
+        document.getElementById("repetitionText").style.display = "initial";
+
+        document.getElementById("typeText").innerHTML = myJSON.defaultNotifications[0].name;
+        document.getElementById("repetitionText").innerHTML = myJSON.defaultNotifications[0].repeat;
+        document.getElementById("timeText").innerHTML = myJSON.defaultNotifications[0].hour;
+        document.getElementById("biggerIcon").style.backgroundImage = myJSON.defaultNotifications[0].img;
+    }
+    if(trimCheckbox.checked)
+    {
+        console.log(waterCheckbox.value)
+        document.getElementById("biggerIcon").style.display = "initial";
+        document.getElementById("onIcon").style.display = "initial";
+        document.getElementById("timeText").style.display = "initial";
+        document.getElementById("typeText").style.display = "initial"
+        document.getElementById("repetitionText").style.display = "initial";
+
+        document.getElementById("typeText").innerHTML = myJSON.defaultNotifications[1].name;
+        document.getElementById("repetitionText").innerHTML = myJSON.defaultNotifications[1].repeat;
+        document.getElementById("timeText").innerHTML = myJSON.defaultNotifications[1].hour;
+        document.getElementById("biggerIcon").style.backgroundImage = myJSON.defaultNotifications[1].img;
+    }
+    if(fertilizeCheckbox.checked)
+    {
+        console.log(waterCheckbox.value)
+        document.getElementById("biggerIcon").style.display = "initial";
+        document.getElementById("onIcon").style.display = "initial";
+        document.getElementById("timeText").style.display = "initial";
+        document.getElementById("typeText").style.display = "initial"
+        document.getElementById("repetitionText").style.display = "initial";
+
+        document.getElementById("typeText").innerHTML = myJSON.defaultNotifications[2].name;
+        document.getElementById("repetitionText").innerHTML = myJSON.defaultNotifications[2].repeat;
+        document.getElementById("timeText").innerHTML = myJSON.defaultNotifications[2].hour;
+        document.getElementById("biggerIcon").style.backgroundImage = myJSON.defaultNotifications[2].img;
+    }
+    if(harvestCheckbox.checked)
+    {
+        console.log(waterCheckbox.value)
+        document.getElementById("biggerIcon").style.display = "initial";
+        document.getElementById("onIcon").style.display = "initial";
+        document.getElementById("timeText").style.display = "initial";
+        document.getElementById("typeText").style.display = "initial"
+        document.getElementById("repetitionText").style.display = "initial";
+
+        document.getElementById("typeText").innerHTML = myJSON.defaultNotifications[3].name;
+        document.getElementById("repetitionText").innerHTML = myJSON.defaultNotifications[3].repeat;
+        document.getElementById("timeText").innerHTML = myJSON.defaultNotifications[3].hour;
+        document.getElementById("biggerIcon").style.backgroundImage = myJSON.defaultNotifications[3].img;
     }
 
     if(window.innerWidth < 485)
@@ -217,3 +293,5 @@ window.onresize = function () {
         }
     }
 }
+
+

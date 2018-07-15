@@ -31,21 +31,23 @@
 //
 // }
 //
-function boolFunction() {
-    userList.add({ image: 'images/FlowersPng/Hibiscus.png', name: 'Hibiscus', family: 'Hibiscus genevil' });
-    $(".flowerAddedBanner").css("visibility", "visible");
-    console.log("ENTER");
-}
 
-var values = [];
-
-$.getJSON("includes/flowers.json", function (data) {
-  var items = [];
-  $.each(data, function (key, val) {
-    items.push(key, val);
-    console.log(items);
-  }
-);
+//
+// function boolFunction() {
+//     userList.add({ image: 'images/FlowersPng/Hibiscus.png', name: 'Hibiscus', family: 'Hibiscus genevil' });
+//     $(".flowerAddedBanner").css("visibility", "visible");
+//     console.log("ENTER");
+// }
+//
+// var values = [];
+//
+// $.getJSON("includes/flowers.json", function (data) {
+//   var items = [];
+//   $.each(data, function (key, val) {
+//     items.push(key, val);
+//     console.log(items);
+//   }
+// );
 
   // $.getJSON("includes/flowers.json", function (data) {
   //   var items = [];

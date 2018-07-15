@@ -11,7 +11,7 @@ var bool = 0;
       valueNames: ['name', 'family', { attr: 'src', name: 'image' }],
       item: 
       '<li class="padLine">' +
-      '<a href="plantsPage.html">' + 
+      '<a href="plantsPage.html">' +
       '<img class="image" src="">' +
       '<span class="name listFont"></span>' +
       '<div class="clearer"></div>' +    
