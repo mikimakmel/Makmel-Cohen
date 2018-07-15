@@ -26,7 +26,7 @@
         <div class="listBackground">
             <div id="users">
                 <?php
-                	include('db.php');
+                	include('server/db.php');
 	
                     $select = "SELECT * FROM jungler order by id";    
                     $result = mysqli_query($connection, $select);
@@ -70,7 +70,6 @@ crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
 crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
-<script src="includes/main.js"></script>
 </body>
 
 </html>

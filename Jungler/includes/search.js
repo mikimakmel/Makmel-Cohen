@@ -1,17 +1,14 @@
 document.getElementById("deleteIcon").onclick = function() { document.getElementById('myInput').value = ''};
 
-var bool = 0;
-
   $("#myInput").click(function(){
   $("#byCategory").remove();
   $("#sideLetters").css("visibility", "visible");
 
-  if(bool == 0){
     var searchList = {
       valueNames: ['name', 'family', { attr: 'src', name: 'image' }],
       item: 
       '<li class="padLine">' +
-      '<a href="plantsPage.html">' + 
+      '<a href="plantsPage.php">' + 
       '<img class="image" src="">' +
       '<span class="name listFont"></span>' +
       '<div class="clearer"></div>' +    
@@ -31,7 +28,12 @@ var bool = 0;
     
     var results = [];
   }
-  bool++;
+);
 
+// $(document).ready(function(){
+//   $.getJSON("includes/flowers.json", function (data) {
 
-});
+//     console.log(data);
+//   });
+// });
+
