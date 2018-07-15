@@ -513,6 +513,15 @@ header, nav, main, section, aside, footer { display: block; }
         top: 622px;
         left: 180px;
     }
+    body#loadingPage .backArrow {
+        background-image: url("../images/General icons/backArrow.png");
+        background-repeat: no-repeat;
+        width: 73px;
+        height: 48px;
+        position: absolute;
+        top: 13px;
+        left: -6px;
+    }
 
 
 /* flowerAdded.HTML || searchByCategory.HTML*/
@@ -1679,6 +1688,15 @@ header, nav, main, section, aside, footer { display: block; }
         top: 549px;
         left: 323px;
     }
+    body#loadingPage .backArrow {
+        background-image: url("../images/General icons/backArrow.png");
+        background-repeat: no-repeat;
+        width: 73px;
+        height: 48px;
+        position: absolute;
+        top: 13px;
+        left: -6px;
+    }
     /* flowerAdded.HTML || searchByCategory.HTML*/
 
     .list {
@@ -2079,7 +2097,7 @@ header, nav, main, section, aside, footer { display: block; }
         width: 768px;
         height: 736px;
         position: absolute;
-        top: 0px;
+        top: -334px;
         left: 0px;
         display: none;
     }
@@ -2260,16 +2278,6 @@ header, nav, main, section, aside, footer { display: block; }
         left: 0px;
         display: none;
     }
-    body#myPlantsPage #waterIconBIGGER {
-        background-image: url("../images/myPlant page/waterIconBIGGER.png");
-        background-repeat: no-repeat;
-        width: 54px;
-        height: 54px;
-        position: absolute;
-        top: 151px;
-        left: 180px;
-        display: none;
-    }
     body#myPlantsPage #onIcon {
         background-image: url("../images/myPlant page/onIcon.png");
         background-repeat: no-repeat;
@@ -2280,7 +2288,16 @@ header, nav, main, section, aside, footer { display: block; }
         left: 530px;
         display: none;
     }
-    body#myPlantsPage #waterTimeText {
+    body#myPlantsPage #biggerIcon {
+        background-repeat: no-repeat;
+        width: 54px;
+        height: 54px;
+        position: absolute;
+        top: 151px;
+        left: 180px;
+        display: none;
+    }
+    body#myPlantsPage #timeText {
         font-weight: normal;
         font-size: 26px;
         font-family: 'ABeeZee'!important;
@@ -2290,7 +2307,7 @@ header, nav, main, section, aside, footer { display: block; }
         left: 430px;
         display: none;
     }
-    body#myPlantsPage #waterHeadText {
+    body#myPlantsPage #typeText {
         font-weight: normal;
         font-size: 24px;
         font-family: 'ABeeZee'!important;
@@ -2300,7 +2317,7 @@ header, nav, main, section, aside, footer { display: block; }
         left: 259px;
         display: none;
     }
-    body#myPlantsPage #waterRepeatText {
+    body#myPlantsPage #repetitionText {
         font-weight: normal;
         font-size: 14px;
         font-family: 'ABeeZee'!important;
